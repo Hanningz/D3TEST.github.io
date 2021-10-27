@@ -65,7 +65,7 @@ d3.json("flare.json", function(error, root) {
         if(d.data.size < 20)
         {
         return d.children ? color(d.depth) : "#ceefe5"; }
-        else if (d.data.size > 20){
+        else if (d.data.size > 20 && d.data.size < 400){
         return d.children ? color(d.depth) : "#d9f3eb"; }
         else if (d.data.size > 400) {
         return d.children ? color(d.depth) : "#cd6284"; }
@@ -81,7 +81,7 @@ d3.json("flare.json", function(error, root) {
       .attr("class", "label")
       .style("fill-opacity", function(d) { return d.parent === root ? 1 : 0; })
       .style("display", function(d) { return d.parent === root ? "inline" : "none"; })
-      .text(function(d) { return d.data.name; });
+      .text(function(d) { return d.data.name + d.data.size; });
 
   var node = g.selectAll("circle,text");
 
