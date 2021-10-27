@@ -64,7 +64,7 @@ d3.json("flare.json", function(error, root) {
       .style("fill", function(d) {
         if(d.data.size < 20)
         {
-        return d.children ? color(d.depth) : "#ceefe5"; }
+        return d.children ? color(d.depth) : "#62cdab"; }
         else if (d.data.size > 20 && d.data.size < 400){
         return d.children ? color(d.depth) : "#d9f3eb"; }
         else if (d.data.size > 400) {
@@ -86,7 +86,7 @@ d3.json("flare.json", function(error, root) {
   var node = g.selectAll("circle,text");
 
   svg
-      .style("background", color(-1))
+      .style("background", "#ffffff")
       .on("click", function() { zoom(root); });
 
   zoomTo([root.x, root.y, root.r * 2 + margin]);
