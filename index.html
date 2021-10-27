@@ -65,6 +65,8 @@ d3.json("flare.json", function(error, root) {
         if(d.data.size > 600)
         {
         return d.children ? color(d.depth) : "#B45CD8"; }
+        else {
+        return d.children ? color(d.depth) : null; }
       })
       .on("click", function(d) { if (focus !== d) zoom(d), d3.event.stopPropagation(); });
 
