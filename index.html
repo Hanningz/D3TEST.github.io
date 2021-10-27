@@ -67,6 +67,11 @@ d3.json("flare.json", function(error, root) {
         return d.children ? color(d.depth) : "#ceefe5"; }
         else if (d.data.size > 20){
         return d.children ? color(d.depth) : "#d9f3eb"; }
+        else if (d.data.size > 400) {
+        return d.children ? color(d.depth) : "#cd6284"; }
+        else
+        {
+        return d.children ? color(d.depth) : null; }
       })
       .on("click", function(d) { if (focus !== d) zoom(d), d3.event.stopPropagation(); });
 
