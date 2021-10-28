@@ -1,7 +1,17 @@
 {
     "name": "Buidls",
     "children": [
-   
+     {
+      "name": "test",
+      "size": " ",
+      "children": [
+       {
+        "name": "R00",
+        "children": [
+         {"name": "TemSensor", "size": 23.5}
+         
+        ]
+       },
         {
             "name": "R01",
             "size": " ",
