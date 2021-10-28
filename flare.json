@@ -3,6 +3,7 @@
     "children": [
      {
       "name": "test",
+      "size": " ",
       "children": [
        {
         "name": "R00",
