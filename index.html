@@ -64,11 +64,15 @@ d3.json("flare.json", function(error, root) {
       .style("fill", function(d) {
         if(d.data.size < 20)
         {
-        return d.children ? color(d.depth) : "#62cdab"; }
-        else if (d.data.size > 20 && d.data.size < 400){
-        return d.children ? color(d.depth) : "#d9f3eb"; }
+        return d.children ? color(d.depth) : "#b0e6d5"; }
+        else if (d.data.size > 20 && d.data.size < 30){
+        return d.children ? color(d.depth) : "#bfc8f1"; }
+        else if (d.data.size > 40 && d.data.size < 60){
+        return d.children ? color(d.depth) : "#a4b1ec"; }
+         else if (d.data.size > 60 && d.data.size < 400){
+        return d.children ? color(d.depth) : "#a4b1ec"; }
         else if (d.data.size > 400) {
-        return d.children ? color(d.depth) : "#cd6284"; }
+        return d.children ? color(d.depth) : "#f0db80"; }
         else
         {
         return d.children ? color(d.depth) : null; }
@@ -81,7 +85,7 @@ d3.json("flare.json", function(error, root) {
       .attr("class", "label")
       .style("fill-opacity", function(d) { return d.parent === root ? 1 : 0; })
       .style("display", function(d) { return d.parent === root ? "inline" : "none"; })
-      .text(function(d) { return d.data.name + d.data.size; });
+      .text(function(d) { return d.data.name + ' ' + d.data.size; });
 
   var node = g.selectAll("circle,text");
 
