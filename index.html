@@ -63,7 +63,7 @@ d3.json("flare.json", function(error, root) {
     .enter().append("circle")
       .attr("class", function(d) { return d.parent ? d.children ? "node" : "node node--leaf" : "node node--root"; })
       .style("fill", function(d) { 
-	 if(d.data.size < 18 && d.data.ID=="al"){
+	 if(d.data.size == 0){
          return d.children ? color(d.depth) : "#EE6D66"; }
          else if(d.data.size < 18){
           return d.children ? color(d.depth) : "#abf6f1"; }
