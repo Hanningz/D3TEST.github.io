@@ -66,14 +66,14 @@ d3.json("flare.json", function(error, root) {
           return d.children ? color(d.depth) : "#abf6f1"; }
             else if (d.data.size > 18 && d.data.size < 23){
               return d.children ? color(d.depth) : "#8ae3dd"; }
-		            else if (d.data.size > 23 && d.data.size < 27){
-              	 	return d.children ? color(d.depth) : "#5bd7bb"; }
+	      	else if (d.data.size > 23 && d.data.size < 27){
+              	 return d.children ? color(d.depth) : "#5bd7bb"; }
                     else if (d.data.size > 30 && d.data.size < 55){
-                      return d.children ? color(d.depth) : "#D1F3FA"; }
+                      return d.children ? color(d.depth) : "#e8f9fc"; }
                         else if (d.data.size > 55 && d.data.size < 79){
                         return d.children ? color(d.depth) : "#66D7EE"; }
                           else if (d.data.size > 60 && d.data.size < 400){
-                          return d.children ? color(d.depth) : "#a4b1ec"; }
+                          return d.children ? color(d.depth) : "#f6f5fe"; }
                             else if (d.data.size > 400) {
                               return d.children ? color(d.depth) : "#68bcb9"; }
                               else {
