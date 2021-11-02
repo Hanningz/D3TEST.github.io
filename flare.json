@@ -260,12 +260,12 @@
       ]
      },
    
-     {
+      {
       "name": "Test Envirnment",
       "size": " ",
       "children": [
-       {
-        "name": "converters",
+       { 
+        "name": "Tem-Sensor",
         "children": [
             {"name": "TemSensor", "size": 17.5},
             {"name": "Humdity", "size": 36},
@@ -276,9 +276,18 @@
             {"name": "CO2", "size": 386},
             {"name": "TV0C", "size": 29}
         ]
+       },
+       {
+        "name": "TV0C-Sensor",
+        "children": [
+            {"name": "TemSensor", "size": 17.5},
+            {"name": "Humdity", "size": 36},
+            {"name": "TV0C", "size": 29}
+        ]
        }
       ]
      },
+
      {
         "name": "Test Envirnment",
         "size": " ",
