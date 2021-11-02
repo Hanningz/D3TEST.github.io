@@ -980,7 +980,7 @@
       "name": "Test Envirnment",
       "bl": " ", 
       "ID": "al",
-      "size": "",
+      "size": "0",
       "children": [
        { 
         "name": "Tem-Sensor",
