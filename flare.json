@@ -260,14 +260,14 @@
       ]
      },
    
-  {
+    {
       "name": "Test Envirnment",
       "size": " ",
       "children": [
        { 
         "name": "Tem-Sensor",
         "children": [
-            {"name": "TemSensor", "size": 17.5},
+            {"name": "TemSensor", "size": 17.5, "bl": 3},
             {"name": "Humdity", "size": 36}
         ]
        },
@@ -297,7 +297,6 @@
        }
       ]
      },
-
 
      {
         "name": "Test Envirnment",
