@@ -63,15 +63,15 @@ d3.json("flare.json", function(error, root) {
       .attr("class", function(d) { return d.parent ? d.children ? "node" : "node node--leaf" : "node node--root"; })
       .style("fill", function(d) { 
          if(d.data.size < 18){
-          return d.children ? color(d.depth) : "#16c4c7"; }
+          return d.children ? color(d.depth) : "#abf6f1"; }
             else if (d.data.size > 18 && d.data.size < 23){
-              return d.children ? color(d.depth) : "#16c7bc"; }
+              return d.children ? color(d.depth) : "#8ae3dd"; }
 		            else if (d.data.size > 23 && d.data.size < 27){
-              	 	return d.children ? color(d.depth) : "#16C79E"; }
+              	 	return d.children ? color(d.depth) : "#5bd7bb"; }
                     else if (d.data.size > 30 && d.data.size < 55){
-                      return d.children ? color(d.depth) : "#9CC2F4"; }
+                      return d.children ? color(d.depth) : "#D1F3FA"; }
                         else if (d.data.size > 55 && d.data.size < 79){
-                        return d.children ? color(d.depth) : "#30C9E8"; }
+                        return d.children ? color(d.depth) : "#66D7EE"; }
                           else if (d.data.size > 60 && d.data.size < 400){
                           return d.children ? color(d.depth) : "#a4b1ec"; }
                             else if (d.data.size > 400) {
