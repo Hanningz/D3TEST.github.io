@@ -260,7 +260,7 @@
       ]
      },
    
-      {
+  {
       "name": "Test Envirnment",
       "size": " ",
       "children": [
@@ -268,25 +268,36 @@
         "name": "Tem-Sensor",
         "children": [
             {"name": "TemSensor", "size": 17.5},
-            {"name": "Humdity", "size": 36},
+            {"name": "Humdity", "size": 36}
+        ]
+       },
+       {
+        "name": "Tem-Sensor",
+        "children": [
+            {"name": "TemSensor", "size": 21.5},
+            {"name": "Humdity", "size": 83}
+            
+        ]
+       },
+       {
+        "name": "CO2-Sensor",
+        "children": [
             {"name": "CO2-Tem", "size": 26.8},
             {"name": "CO2-Hum", "size": 66},
-            {"name": "TV0C-Tem", "size": 21.8},
-            {"name": "TVOC-Hum", "size": 52},
-            {"name": "CO2", "size": 386},
-            {"name": "TV0C", "size": 29}
+            {"name": "CO2", "size": 386}
         ]
        },
        {
         "name": "TV0C-Sensor",
         "children": [
-            {"name": "TemSensor", "size": 17.5},
-            {"name": "Humdity", "size": 36},
-            {"name": "TV0C", "size": 29}
+            {"name": "TV0C-Tem", "size": 21.8},
+            {"name": "TVOC-Hum", "size": 52},
+            {"name": "TV0C", "size": 59}
         ]
        }
       ]
      },
+
 
      {
         "name": "Test Envirnment",
