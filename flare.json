@@ -2,424 +2,78 @@
     "name": "Buidls",
     "children": [
      {
-      "name": "Buidling A",
-      "bl": " ", 
-      "ID": " ",
-      "size": " ", 
+      "name": "test",
+      "size": " ",
       "children": [
+       {
+        "name": "R00",
+        "children": [
+         {"name": "TemSensor", "size": 23.5}
+         
+        ]
+       },
+        {
+            "name": "R01",
+            "size": " ",
+            "children": [
+             {"name": "TemSensor", "size": 23.5},
+             {"name": "Humdity", "size": 56},
+             {"name": "CO2-Tem", "size": 21.8},
+             {"name": "CO2-Hum", "size": 46},
+             {"name": "TV0C-Tem", "size": 26.8},
+             {"name": "TVOC-Hum", "size": 52},
+             {"name": "CO2", "size": 156},
+             {"name": "TV0C", "size": 58}
+    
+        ]
+       },
 
+       {
+        "name": "R02",
+        "size": " ",
+        "children": [
+         {"name": "TemSensor", "size": 23.5},
+         {"name": "Humdity", "size": 56},
+         {"name": "CO2-Tem", "size": 21.8},
+         {"name": "CO2-Hum", "size": 46},
+         {"name": "TV0C-Tem", "size": 26.8},
+         {"name": "TVOC-Hum", "size": 52},
+         {"name": "CO2", "size": 116},
+         {"name": "TV0C", "size": 58}
 
-       
+    ]
+   },
        {
-        "name": "R10",
-        "bl": " ", 
-        "ID": " ",
+        "name": "R03",
         "size": " ",
         "children": [
-         { 
-          "name": "Tem-Sensor",
-          "bl": " ", 
-          "ID": " ",
-          "size": " ",
-          "children": [
-              {"name": "TemSensor", "size": 17.5, "bl": 3, "ID": " "},
-              {"name": "Humdity", "size": 36, "bl": 2.8, "ID": " "}
-          ]
-         },
-         {
-          "name": "Tem-Sensor",
-          "bl": " ", 
-          "ID": " ",
-          "size": " ",
-          "children": [
-              {"name": "TemSensor", "size": 21.5, "bl": 3, "ID": " "},
-              {"name": "Humdity", "size": 83, "bl": 2.7, "ID": " "}
-              
-          ]
-         },
-         {
-          "name": "CO2-Sensor",
-          "bl": " ", 
-          "ID": " ",
-          "size": " ",
-          "children": [
-              {"name": "CO2-Tem", "size": 26.8, "bl": 3, "ID": " "},
-              {"name": "CO2-Hum", "size": 66, "bl": 3, "ID": " "},
-              {"name": "CO2", "size": 386, "bl": 3, "ID": " "}
-          ]
-         },
-         {
-          "name": "TV0C-Sensor",
-          "bl": " ", 
-          "ID": " ",
-          "size": " ",
-          "children": [
-              {"name": "TV0C-Tem", "size": 21.8, "bl": 3, "ID": " "},
-              {"name": "TVOC-Hum", "size": 52, "bl": 2.7, "ID": " "},
-              {"name": "TV0C", "size": 59, "bl": 3, "ID": " "}
-          ]
-         }
-        ]
-       },
-       {
-        "name": "R11",
-        "bl": " ", 
-        "ID": " ",
-        "size": " ",
-        "children": [
-         { 
-          "name": "Tem-Sensor",
-          "bl": " ", 
-          "ID": " ",
-          "size": " ",
-          "children": [
-              {"name": "TemSensor", "size": 17.5, "bl": 3, "ID": " "},
-              {"name": "Humdity", "size": 36, "bl": 2.8, "ID": " "}
-          ]
-         },
-         {
-          "name": "Tem-Sensor",
-          "bl": " ", 
-          "ID": " ",
-          "size": " ",
-          "children": [
-              {"name": "TemSensor", "size": 21.5, "bl": 3, "ID": " "},
-              {"name": "Humdity", "size": 83, "bl": 2.7, "ID": " "}
-              
-          ]
-         },
-         {
-          "name": "CO2-Sensor",
-          "bl": " ", 
-          "ID": " ",
-          "size": " ",
-          "children": [
-              {"name": "CO2-Tem", "size": 26.8, "bl": 3, "ID": " "},
-              {"name": "CO2-Hum", "size": 66, "bl": 3, "ID": " "},
-              {"name": "CO2", "size": 386, "bl": 3, "ID": " "}
-          ]
-         },
-         {
-          "name": "TV0C-Sensor",
-          "bl": " ", 
-          "ID": " ",
-          "size": " ",
-          "children": [
-              {"name": "TV0C-Tem", "size": 21.8, "bl": 3, "ID": " "},
-              {"name": "TVOC-Hum", "size": 52, "bl": 2.7, "ID": " "},
-              {"name": "TV0C", "size": 59, "bl": 3, "ID": " "}
-          ]
-         }
-        ]
-       },
-       {
-        "name": "R12",
-        "bl": " ", 
-        "ID": " ",
-        "size": " ",
-        "children": [
-         { 
-          "name": "Tem-Sensor",
-          "bl": " ", 
-          "ID": " ",
-          "size": " ",
-          "children": [
-              {"name": "TemSensor", "size": 17.5, "bl": 3, "ID": " "},
-              {"name": "Humdity", "size": 36, "bl": 2.8, "ID": " "}
-          ]
-         },
-         {
-          "name": "Tem-Sensor",
-          "bl": " ", 
-          "ID": " ",
-          "size": " ",
-          "children": [
-              {"name": "TemSensor", "size": 21.5, "bl": 3, "ID": " "},
-              {"name": "Humdity", "size": 83, "bl": 2.7, "ID": " "}
-              
-          ]
-         },
-         {
-          "name": "CO2-Sensor",
-          "bl": " ", 
-          "ID": " ",
-          "size": " ",
-          "children": [
-              {"name": "CO2-Tem", "size": 26.8, "bl": 3, "ID": " "},
-              {"name": "CO2-Hum", "size": 66, "bl": 3, "ID": " "},
-              {"name": "CO2", "size": 386, "bl": 3, "ID": " "}
-          ]
-         },
-         {
-          "name": "TV0C-Sensor",
-          "bl": " ", 
-          "ID": " ",
-          "size": " ",
-          "children": [
-              {"name": "TV0C-Tem", "size": 21.8, "bl": 3, "ID": " "},
-              {"name": "TVOC-Hum", "size": 52, "bl": 2.7, "ID": " "},
-              {"name": "TV0C", "size": 59, "bl": 3, "ID": " "}
-          ]
-         }
-        ]
-       },
-       {
-        "name": "R13",
-        "bl": " ", 
-        "ID": " ",
-        "size": " ",
-        "children": [
-         { 
-          "name": "Tem-Sensor",
-          "bl": " ", 
-          "ID": " ",
-          "size": " ",
-          "children": [
-              {"name": "TemSensor", "size": 17.5, "bl": 3, "ID": " "},
-              {"name": "Humdity", "size": 36, "bl": 2.8, "ID": " "}
-          ]
-         },
-         {
-          "name": "Tem-Sensor",
-          "bl": " ", 
-          "ID": " ",
-          "size": " ",
-          "children": [
-              {"name": "TemSensor", "size": 21.5, "bl": 3, "ID": " "},
-              {"name": "Humdity", "size": 83, "bl": 2.7, "ID": " "}
-              
-          ]
-         },
-         {
-          "name": "CO2-Sensor",
-          "bl": " ", 
-          "ID": " ",
-          "size": " ",
-          "children": [
-              {"name": "CO2-Tem", "size": 26.8, "bl": 3, "ID": " "},
-              {"name": "CO2-Hum", "size": 66, "bl": 3, "ID": " "},
-              {"name": "CO2", "size": 386, "bl": 3, "ID": " "}
-          ]
-         },
-         {
-          "name": "TV0C-Sensor",
-          "bl": " ", 
-          "ID": " ",
-          "size": " ",
-          "children": [
-              {"name": "TV0C-Tem", "size": 21.8, "bl": 3, "ID": " "},
-              {"name": "TVOC-Hum", "size": 52, "bl": 2.7, "ID": " "},
-              {"name": "TV0C", "size": 59, "bl": 3, "ID": " "}
-          ]
-         }
-        ]
-       },
-       {
-        "name": "R14",
-        "bl": " ", 
-        "ID": " ",
-        "size": " ",
-        "children": [
-         { 
-          "name": "Tem-Sensor",
-          "bl": " ", 
-          "ID": " ",
-          "size": " ",
-          "children": [
-              {"name": "TemSensor", "size": 17.5, "bl": 3, "ID": " "},
-              {"name": "Humdity", "size": 36, "bl": 2.8, "ID": " "}
-          ]
-         },
-         {
-          "name": "Tem-Sensor",
-          "bl": " ", 
-          "ID": " ",
-          "size": " ",
-          "children": [
-              {"name": "TemSensor", "size": 21.5, "bl": 3, "ID": " "},
-              {"name": "Humdity", "size": 83, "bl": 2.7, "ID": " "}
-              
-          ]
-         },
-         {
-          "name": "CO2-Sensor",
-          "bl": " ", 
-          "ID": " ",
-          "size": " ",
-          "children": [
-              {"name": "CO2-Tem", "size": 26.8, "bl": 3, "ID": " "},
-              {"name": "CO2-Hum", "size": 66, "bl": 3, "ID": " "},
-              {"name": "CO2", "size": 386, "bl": 3, "ID": " "}
-          ]
-         },
-         {
-          "name": "TV0C-Sensor",
-          "bl": " ", 
-          "ID": " ",
-          "size": " ",
-          "children": [
-              {"name": "TV0C-Tem", "size": 21.8, "bl": 3, "ID": " "},
-              {"name": "TVOC-Hum", "size": 52, "bl": 2.7, "ID": " "},
-              {"name": "TV0C", "size": 59, "bl": 3, "ID": " "}
-          ]
-         }
-        ]
-       },
-       {
-        "name": "R15",
-        "bl": " ", 
-        "ID": " ",
-        "size": " ",
-        "children": [
-         { 
-          "name": "Tem-Sensor",
-          "bl": " ", 
-          "ID": " ",
-          "size": " ",
-          "children": [
-              {"name": "TemSensor", "size": 17.5, "bl": 3, "ID": " "},
-              {"name": "Humdity", "size": 36, "bl": 2.8, "ID": " "}
-          ]
-         },
-         {
-          "name": "Tem-Sensor",
-          "bl": " ", 
-          "ID": " ",
-          "size": " ",
-          "children": [
-              {"name": "TemSensor", "size": 21.5, "bl": 3, "ID": " "},
-              {"name": "Humdity", "size": 83, "bl": 2.7, "ID": " "}
-              
-          ]
-         },
-         {
-          "name": "CO2-Sensor",
-          "bl": " ", 
-          "ID": " ",
-          "size": " ",
-          "children": [
-              {"name": "CO2-Tem", "size": 26.8, "bl": 3, "ID": " "},
-              {"name": "CO2-Hum", "size": 66, "bl": 3, "ID": " "},
-              {"name": "CO2", "size": 386, "bl": 3, "ID": " "}
-          ]
-         },
-         {
-          "name": "TV0C-Sensor",
-          "bl": " ", 
-          "ID": " ",
-          "size": " ",
-          "children": [
-              {"name": "TV0C-Tem", "size": 21.8, "bl": 3, "ID": " "},
-              {"name": "TVOC-Hum", "size": 52, "bl": 2.7, "ID": " "},
-              {"name": "TV0C", "size": 59, "bl": 3, "ID": " "}
-          ]
-         }
-        ]
-       },
-       {
-        "name": "R16",
-        "bl": " ", 
-        "ID": " ",
-        "size": " ",
-        "children": [
-         { 
-          "name": "Tem-Sensor",
-          "bl": " ", 
-          "ID": " ",
-          "size": " ",
-          "children": [
-              {"name": "TemSensor", "size": 17.5, "bl": 3, "ID": " "},
-              {"name": "Humdity", "size": 36, "bl": 2.8, "ID": " "}
-          ]
-         },
-         {
-          "name": "Tem-Sensor",
-          "bl": " ", 
-          "ID": " ",
-          "size": " ",
-          "children": [
-              {"name": "TemSensor", "size": 21.5, "bl": 3, "ID": " "},
-              {"name": "Humdity", "size": 83, "bl": 2.7, "ID": " "}
-              
-          ]
-         },
-         {
-          "name": "CO2-Sensor",
-          "bl": " ", 
-          "ID": " ",
-          "size": " ",
-          "children": [
-              {"name": "CO2-Tem", "size": 26.8, "bl": 3, "ID": " "},
-              {"name": "CO2-Hum", "size": 66, "bl": 3, "ID": " "},
-              {"name": "CO2", "size": 386, "bl": 3, "ID": " "}
-          ]
-         },
-         {
-          "name": "TV0C-Sensor",
-          "bl": " ", 
-          "ID": " ",
-          "size": " ",
-          "children": [
-              {"name": "TV0C-Tem", "size": 21.8, "bl": 3, "ID": " "},
-              {"name": "TVOC-Hum", "size": 52, "bl": 2.7, "ID": " "},
-              {"name": "TV0C", "size": 59, "bl": 3, "ID": " "}
-          ]
-         }
+        
+         {"name": "TemSensor : ", "size": 56.5},
+            {"name": "Humdity : ", "size": 76},
+            {"name": "CO2-Tem : ", "size": 23.8},
+            {"name": "CO2-Hum : ", "size": 46},
+            {"name": "TV0C-Tem : ", "size": 26.8},
+            {"name": "TVOC-Hum : ", "size": 62},
+            {"name": "CO2 : ", "size": 186},
+            {"name": "TV0C : ", "size": 28}
         ]
        },
        {
         "name": "R17",
-        "bl": " ", 
-        "ID": " ",
         "size": " ",
         "children": [
-         { 
-          "name": "Tem-Sensor",
-          "bl": " ", 
-          "ID": " ",
-          "size": " ",
-          "children": [
-              {"name": "TemSensor", "size": 17.5, "bl": 3, "ID": " "},
-              {"name": "Humdity", "size": 36, "bl": 2.8, "ID": " "}
-          ]
-         },
-         {
-          "name": "Tem-Sensor",
-          "bl": " ", 
-          "ID": " ",
-          "size": " ",
-          "children": [
-              {"name": "TemSensor", "size": 21.5, "bl": 3, "ID": " "},
-              {"name": "Humdity", "size": 83, "bl": 2.7, "ID": " "}
-              
-          ]
-         },
-         {
-          "name": "CO2-Sensor",
-          "bl": " ", 
-          "ID": " ",
-          "size": " ",
-          "children": [
-              {"name": "CO2-Tem", "size": 26.8, "bl": 3, "ID": " "},
-              {"name": "CO2-Hum", "size": 66, "bl": 3, "ID": " "},
-              {"name": "CO2", "size": 386, "bl": 3, "ID": " "}
-          ]
-         },
-         {
-          "name": "TV0C-Sensor",
-          "bl": " ", 
-          "ID": " ",
-          "size": " ",
-          "children": [
-              {"name": "TV0C-Tem", "size": 21.8, "bl": 3, "ID": " "},
-              {"name": "TVOC-Hum", "size": 52, "bl": 2.7, "ID": " "},
-              {"name": "TV0C", "size": 59, "bl": 3, "ID": " "}
-          ]
-         }
+            {"name": "TemSensor", "size": 16.5},
+            {"name": "Humdity", "size": 76},
+            {"name": "CO2-Tem", "size": 23.8},
+            {"name": "CO2-Hum", "size": 46},
+            {"name": "TV0C-Tem", "size": 26.8},
+            {"name": "TVOC-Hum", "size": 62},
+            {"name": "CO2", "size": 236},
+            {"name": "TV0C", "size": 28}
         ]
        },
        {
-        "name": "R18",
+        "name": "Test Envirnment",
         "bl": " ", 
         "ID": " ",
         "size": " ",
@@ -430,8 +84,8 @@
           "ID": " ",
           "size": " ",
           "children": [
-              {"name": "TemSensor", "size": 17.5, "bl": 3, "ID": " "},
-              {"name": "Humdity", "size": 36, "bl": 2.8, "ID": " "}
+              {"name": "TemSensor", "size": 17.5, "bl": 3, "ID": 31023},
+              {"name": "Humdity", "size": 36, "bl": 2.8, "ID": 31023}
           ]
          },
          {
@@ -440,1041 +94,7 @@
           "ID": " ",
           "size": " ",
           "children": [
-              {"name": "TemSensor", "size": 21.5, "bl": 3, "ID": " "},
-              {"name": "Humdity", "size": 83, "bl": 2.7, "ID": " "}
-              
-          ]
-         },
-         {
-          "name": "CO2-Sensor",
-          "bl": " ", 
-          "ID": " ",
-          "size": " ",
-          "children": [
-              {"name": "CO2-Tem", "size": 26.8, "bl": 3, "ID": " "},
-              {"name": "CO2-Hum", "size": 66, "bl": 3, "ID": " "},
-              {"name": "CO2", "size": 386, "bl": 3, "ID": " "}
-          ]
-         },
-         {
-          "name": "TV0C-Sensor",
-          "bl": " ", 
-          "ID": " ",
-          "size": " ",
-          "children": [
-              {"name": "TV0C-Tem", "size": 21.8, "bl": 3, "ID": " "},
-              {"name": "TVOC-Hum", "size": 52, "bl": 2.7, "ID": " "},
-              {"name": "TV0C", "size": 59, "bl": 3, "ID": " "}
-          ]
-         }
-        ]
-       },
-       {
-        "name": "R19",
-        "bl": " ", 
-        "ID": " ",
-        "size": " ",
-        "children": [
-         { 
-          "name": "Tem-Sensor",
-          "bl": " ", 
-          "ID": " ",
-          "size": " ",
-          "children": [
-              {"name": "TemSensor", "size": 17.5, "bl": 3, "ID": " "},
-              {"name": "Humdity", "size": 36, "bl": 2.8, "ID": " "}
-          ]
-         },
-         {
-          "name": "Tem-Sensor",
-          "bl": " ", 
-          "ID": " ",
-          "size": " ",
-          "children": [
-              {"name": "TemSensor", "size": 21.5, "bl": 3, "ID": " "},
-              {"name": "Humdity", "size": 83, "bl": 2.7, "ID": " "}
-              
-          ]
-         },
-         {
-          "name": "CO2-Sensor",
-          "bl": " ", 
-          "ID": " ",
-          "size": " ",
-          "children": [
-              {"name": "CO2-Tem", "size": 26.8, "bl": 3, "ID": " "},
-              {"name": "CO2-Hum", "size": 66, "bl": 3, "ID": " "},
-              {"name": "CO2", "size": 386, "bl": 3, "ID": " "}
-          ]
-         },
-         {
-          "name": "TV0C-Sensor",
-          "bl": " ", 
-          "ID": " ",
-          "size": " ",
-          "children": [
-              {"name": "TV0C-Tem", "size": 21.8, "bl": 3, "ID": " "},
-              {"name": "TVOC-Hum", "size": 52, "bl": 2.7, "ID": " "},
-              {"name": "TV0C", "size": 59, "bl": 3, "ID": " "}
-          ]
-         }
-        ]
-       },
-
-       
-       {
-        "name": "R20",
-        "bl": " ", 
-        "ID": " ",
-        "size": " ",
-        "children": [
-         { 
-          "name": "Tem-Sensor",
-          "bl": " ", 
-          "ID": " ",
-          "size": " ",
-          "children": [
-              {"name": "TemSensor", "size": 17.5, "bl": 3, "ID": " "},
-              {"name": "Humdity", "size": 36, "bl": 2.8, "ID": " "}
-          ]
-         },
-         {
-          "name": "Tem-Sensor",
-          "bl": " ", 
-          "ID": " ",
-          "size": " ",
-          "children": [
-              {"name": "TemSensor", "size": 21.5, "bl": 3, "ID": " "},
-              {"name": "Humdity", "size": 83, "bl": 2.7, "ID": " "}
-              
-          ]
-         },
-         {
-          "name": "CO2-Sensor",
-          "bl": " ", 
-          "ID": " ",
-          "size": " ",
-          "children": [
-              {"name": "CO2-Tem", "size": 26.8, "bl": 3, "ID": " "},
-              {"name": "CO2-Hum", "size": 66, "bl": 3, "ID": " "},
-              {"name": "CO2", "size": 386, "bl": 3, "ID": " "}
-          ]
-         },
-         {
-          "name": "TV0C-Sensor",
-          "bl": " ", 
-          "ID": " ",
-          "size": " ",
-          "children": [
-              {"name": "TV0C-Tem", "size": 21.8, "bl": 3, "ID": " "},
-              {"name": "TVOC-Hum", "size": 52, "bl": 2.7, "ID": " "},
-              {"name": "TV0C", "size": 59, "bl": 3, "ID": " "}
-          ]
-         }
-        ]
-       },
-       {
-        "name": "R21",
-        "bl": " ", 
-        "ID": " ",
-        "size": " ",
-        "children": [
-         { 
-          "name": "Tem-Sensor",
-          "bl": " ", 
-          "ID": " ",
-          "size": " ",
-          "children": [
-              {"name": "TemSensor", "size": 17.5, "bl": 3, "ID": " "},
-              {"name": "Humdity", "size": 36, "bl": 2.8, "ID": " "}
-          ]
-         },
-         {
-          "name": "Tem-Sensor",
-          "bl": " ", 
-          "ID": " ",
-          "size": " ",
-          "children": [
-              {"name": "TemSensor", "size": 21.5, "bl": 3, "ID": " "},
-              {"name": "Humdity", "size": 83, "bl": 2.7, "ID": " "}
-              
-          ]
-         },
-         {
-          "name": "CO2-Sensor",
-          "bl": " ", 
-          "ID": " ",
-          "size": " ",
-          "children": [
-              {"name": "CO2-Tem", "size": 26.8, "bl": 3, "ID": " "},
-              {"name": "CO2-Hum", "size": 66, "bl": 3, "ID": " "},
-              {"name": "CO2", "size": 386, "bl": 3, "ID": " "}
-          ]
-         },
-         {
-          "name": "TV0C-Sensor",
-          "bl": " ", 
-          "ID": " ",
-          "size": " ",
-          "children": [
-              {"name": "TV0C-Tem", "size": 21.8, "bl": 3, "ID": " "},
-              {"name": "TVOC-Hum", "size": 52, "bl": 2.7, "ID": " "},
-              {"name": "TV0C", "size": 59, "bl": 3, "ID": " "}
-          ]
-         }
-        ]
-       },
-       {
-        "name": "R22",
-        "bl": " ", 
-        "ID": " ",
-        "size": " ",
-        "children": [
-         { 
-          "name": "Tem-Sensor",
-          "bl": " ", 
-          "ID": " ",
-          "size": " ",
-          "children": [
-              {"name": "TemSensor", "size": 17.5, "bl": 3, "ID": " "},
-              {"name": "Humdity", "size": 36, "bl": 2.8, "ID": " "}
-          ]
-         },
-         {
-          "name": "Tem-Sensor",
-          "bl": " ", 
-          "ID": " ",
-          "size": " ",
-          "children": [
-              {"name": "TemSensor", "size": 21.5, "bl": 3, "ID": " "},
-              {"name": "Humdity", "size": 83, "bl": 2.7, "ID": " "}
-              
-          ]
-         },
-         {
-          "name": "CO2-Sensor",
-          "bl": " ", 
-          "ID": " ",
-          "size": " ",
-          "children": [
-              {"name": "CO2-Tem", "size": 26.8, "bl": 3, "ID": " "},
-              {"name": "CO2-Hum", "size": 66, "bl": 3, "ID": " "},
-              {"name": "CO2", "size": 386, "bl": 3, "ID": " "}
-          ]
-         },
-         {
-          "name": "TV0C-Sensor",
-          "bl": " ", 
-          "ID": " ",
-          "size": " ",
-          "children": [
-              {"name": "TV0C-Tem", "size": 21.8, "bl": 3, "ID": " "},
-              {"name": "TVOC-Hum", "size": 52, "bl": 2.7, "ID": " "},
-              {"name": "TV0C", "size": 59, "bl": 3, "ID": " "}
-          ]
-         }
-        ]
-       },
-       {
-        "name": "R23",
-        "bl": " ", 
-        "ID": " ",
-        "size": " ",
-        "children": [
-         { 
-          "name": "Tem-Sensor",
-          "bl": " ", 
-          "ID": " ",
-          "size": " ",
-          "children": [
-              {"name": "TemSensor", "size": 17.5, "bl": 3, "ID": " "},
-              {"name": "Humdity", "size": 36, "bl": 2.8, "ID": " "}
-          ]
-         },
-         {
-          "name": "Tem-Sensor",
-          "bl": " ", 
-          "ID": " ",
-          "size": " ",
-          "children": [
-              {"name": "TemSensor", "size": 21.5, "bl": 3, "ID": " "},
-              {"name": "Humdity", "size": 83, "bl": 2.7, "ID": " "}
-              
-          ]
-         },
-         {
-          "name": "CO2-Sensor",
-          "bl": " ", 
-          "ID": " ",
-          "size": " ",
-          "children": [
-              {"name": "CO2-Tem", "size": 26.8, "bl": 3, "ID": " "},
-              {"name": "CO2-Hum", "size": 66, "bl": 3, "ID": " "},
-              {"name": "CO2", "size": 386, "bl": 3, "ID": " "}
-          ]
-         },
-         {
-          "name": "TV0C-Sensor",
-          "bl": " ", 
-          "ID": " ",
-          "size": " ",
-          "children": [
-              {"name": "TV0C-Tem", "size": 21.8, "bl": 3, "ID": " "},
-              {"name": "TVOC-Hum", "size": 52, "bl": 2.7, "ID": " "},
-              {"name": "TV0C", "size": 59, "bl": 3, "ID": " "}
-          ]
-         }
-        ]
-       },
-       {
-        "name": "R24",
-        "bl": " ", 
-        "ID": " ",
-        "size": " ",
-        "children": [
-         { 
-          "name": "Tem-Sensor",
-          "bl": " ", 
-          "ID": " ",
-          "size": " ",
-          "children": [
-              {"name": "TemSensor", "size": 17.5, "bl": 3, "ID": " "},
-              {"name": "Humdity", "size": 36, "bl": 2.8, "ID": " "}
-          ]
-         },
-         {
-          "name": "Tem-Sensor",
-          "bl": " ", 
-          "ID": " ",
-          "size": " ",
-          "children": [
-              {"name": "TemSensor", "size": 21.5, "bl": 3, "ID": " "},
-              {"name": "Humdity", "size": 83, "bl": 2.7, "ID": " "}
-              
-          ]
-         },
-         {
-          "name": "CO2-Sensor",
-          "bl": " ", 
-          "ID": " ",
-          "size": " ",
-          "children": [
-              {"name": "CO2-Tem", "size": 26.8, "bl": 3, "ID": " "},
-              {"name": "CO2-Hum", "size": 66, "bl": 3, "ID": " "},
-              {"name": "CO2", "size": 386, "bl": 3, "ID": " "}
-          ]
-         },
-         {
-          "name": "TV0C-Sensor",
-          "bl": " ", 
-          "ID": " ",
-          "size": " ",
-          "children": [
-              {"name": "TV0C-Tem", "size": 21.8, "bl": 3, "ID": " "},
-              {"name": "TVOC-Hum", "size": 52, "bl": 2.7, "ID": " "},
-              {"name": "TV0C", "size": 59, "bl": 3, "ID": " "}
-          ]
-         }
-        ]
-       },
-       {
-        "name": "R25",
-        "bl": " ", 
-        "ID": " ",
-        "size": " ",
-        "children": [
-         { 
-          "name": "Tem-Sensor",
-          "bl": " ", 
-          "ID": " ",
-          "size": " ",
-          "children": [
-              {"name": "TemSensor", "size": 17.5, "bl": 3, "ID": " "},
-              {"name": "Humdity", "size": 36, "bl": 2.8, "ID": " "}
-          ]
-         },
-         {
-          "name": "Tem-Sensor",
-          "bl": " ", 
-          "ID": "" "",
-          "size": " ",
-          "children": [
-              {"name": "TemSensor", "size": 21.5, "bl": 3},
-              {"name": "Humdity", "size": 83, "bl": 2.7}
-              
-          ]
-         },
-         {
-          "name": "CO2-Sensor",
-          "bl": " ", 
-          "ID": " ",
-          "size": " ",
-          "children": [
-              {"name": "CO2-Tem", "size": 26.8, "bl": 3, "ID": " "},
-              {"name": "CO2-Hum", "size": 66, "bl": 3, "ID": " "},
-              {"name": "CO2", "size": 386, "bl": 3, "ID": " "}
-          ]
-         },
-         {
-          "name": "TV0C-Sensor",
-          "bl": " ", 
-          "ID": " ",
-          "size": " ",
-          "children": [
-              {"name": "TV0C-Tem", "size": 21.8, "bl": 3, "ID": " "},
-              {"name": "TVOC-Hum", "size": 52, "bl": 2.7, "ID": " "},
-              {"name": "TV0C", "size": 59, "bl": 3, "ID": " "}
-          ]
-         }
-        ]
-       },
-       {
-        "name": "R26",
-        "bl": " ", 
-        "ID": " ",
-        "size": " ",
-        "children": [
-         { 
-          "name": "Tem-Sensor",
-          "bl": " ", 
-          "ID": " ",
-          "size": " ",
-          "children": [
-              {"name": "TemSensor", "size": 17.5, "bl": 3, "ID": " "},
-              {"name": "Humdity", "size": 36, "bl": 2.8, "ID": " "}
-          ]
-         },
-         {
-          "name": "Tem-Sensor",
-          "bl": " ", 
-          "ID": " ",
-          "size": " ",
-          "children": [
-              {"name": "TemSensor", "size": 21.5, "bl": 3, "ID": " "},
-              {"name": "Humdity", "size": 83, "bl": 2.7, "ID": " "}
-              
-          ]
-         },
-         {
-          "name": "CO2-Sensor",
-          "bl": " ", 
-          "ID": " ",
-          "size": " ",
-          "children": [
-              {"name": "CO2-Tem", "size": 26.8, "bl": 3, "ID": " "},
-              {"name": "CO2-Hum", "size": 66, "bl": 3, "ID": " "},
-              {"name": "CO2", "size": 386, "bl": 3, "ID": " "}
-          ]
-         },
-         {
-          "name": "TV0C-Sensor",
-          "bl": " ", 
-          "ID": " ",
-          "size": " ",
-          "children": [
-              {"name": "TV0C-Tem", "size": 21.8, "bl": 3, "ID": " "},
-              {"name": "TVOC-Hum", "size": 52, "bl": 2.7, "ID": " "},
-              {"name": "TV0C", "size": 59, "bl": 3, "ID": " "}
-          ]
-         }
-        ]
-       },
-       {
-        "name": "R27",
-        "bl": " ", 
-        "ID": " ",
-        "size": " ",
-        "children": [
-         { 
-          "name": "Tem-Sensor",
-          "bl": " ", 
-          "ID": " ",
-          "size": " ",
-          "children": [
-              {"name": "TemSensor", "size": 17.5, "bl": 3, "ID": " "},
-              {"name": "Humdity", "size": 36, "bl": 2.8, "ID": " "}
-          ]
-         },
-         {
-          "name": "Tem-Sensor",
-          "bl": " ", 
-          "ID": " ",
-          "size": " ",
-          "children": [
-              {"name": "TemSensor", "size": 21.5, "bl": 3, "ID": " "},
-              {"name": "Humdity", "size": 83, "bl": 2.7, "ID": " "}
-              
-          ]
-         },
-         {
-          "name": "CO2-Sensor",
-          "bl": " ", 
-          "ID": " ",
-          "size": " ",
-          "children": [
-              {"name": "CO2-Tem", "size": 26.8, "bl": 3, "ID": " "},
-              {"name": "CO2-Hum", "size": 66, "bl": 3, "ID": " "},
-              {"name": "CO2", "size": 386, "bl": 3, "ID": " "}
-          ]
-         },
-         {
-          "name": "TV0C-Sensor",
-          "bl": " ", 
-          "ID": " ",
-          "size": " ",
-          "children": [
-              {"name": "TV0C-Tem", "size": 21.8, "bl": 3, "ID": " "},
-              {"name": "TVOC-Hum", "size": 52, "bl": 2.7, "ID": " "},
-              {"name": "TV0C", "size": 59, "bl": 3, "ID": " "}
-          ]
-         }
-        ]
-       },
-       {
-        "name": "R28",
-        "bl": " ", 
-        "ID": " ",
-        "size": " ",
-        "children": [
-         { 
-          "name": "Tem-Sensor",
-          "bl": " ", 
-          "ID": " ",
-          "size": " ",
-          "children": [
-              {"name": "TemSensor", "size": 17.5, "bl": 3, "ID": " "},
-              {"name": "Humdity", "size": 36, "bl": 2.8, "ID": " "}
-          ]
-         },
-         {
-          "name": "Tem-Sensor",
-          "bl": " ", 
-          "ID": " ",
-          "size": " ",
-          "children": [
-              {"name": "TemSensor", "size": 21.5, "bl": 3, "ID": " "},
-              {"name": "Humdity", "size": 83, "bl": 2.7, "ID": " "}
-              
-          ]
-         },
-         {
-          "name": "CO2-Sensor",
-          "bl": " ", 
-          "ID": " ",
-          "size": " ",
-          "children": [
-              {"name": "CO2-Tem", "size": 26.8, "bl": 3, "ID": " "},
-              {"name": "CO2-Hum", "size": 66, "bl": 3, "ID": " "},
-              {"name": "CO2", "size": 386, "bl": 3, "ID": " "}
-          ]
-         },
-         {
-          "name": "TV0C-Sensor",
-          "bl": " ", 
-          "ID": " ",
-          "size": " ",
-          "children": [
-              {"name": "TV0C-Tem", "size": 21.8, "bl": 3, "ID": " "},
-              {"name": "TVOC-Hum", "size": 52, "bl": 2.7, "ID": " "},
-              {"name": "TV0C", "size": 59, "bl": 3, "ID": " "}
-          ]
-         }
-        ]
-       },
-       {
-        "name": "R29",
-        "bl": " ", 
-        "ID": " ",
-        "size": " ",
-        "children": [
-         { 
-          "name": "Tem-Sensor",
-          "bl": " ", 
-          "ID": " ",
-          "size": " ",
-          "children": [
-              {"name": "TemSensor", "size": 17.5, "bl": 3, "ID": " "},
-              {"name": "Humdity", "size": 36, "bl": 2.8, "ID": " "}
-          ]
-         },
-         {
-          "name": "Tem-Sensor",
-          "bl": " ", 
-          "ID": " ",
-          "size": " ",
-          "children": [
-              {"name": "TemSensor", "size": 21.5, "bl": 3, "ID": " "},
-              {"name": "Humdity", "size": 83, "bl": 2.7, "ID": " "}
-              
-          ]
-         },
-         {
-          "name": "CO2-Sensor",
-          "bl": " ", 
-          "ID": " ",
-          "size": " ",
-          "children": [
-              {"name": "CO2-Tem", "size": 26.8, "bl": 3, "ID": " "},
-              {"name": "CO2-Hum", "size": 66, "bl": 3, "ID": " "},
-              {"name": "CO2", "size": 386, "bl": 3, "ID": " "}
-          ]
-         },
-         {
-          "name": "TV0C-Sensor",
-          "bl": " ", 
-          "ID": " ",
-          "size": " ",
-          "children": [
-              {"name": "TV0C-Tem", "size": 21.8, "bl": 3, "ID": " "},
-              {"name": "TVOC-Hum", "size": 52, "bl": 2.7, "ID": " "},
-              {"name": "TV0C", "size": 59, "bl": 3, "ID": " "}
-          ]
-         }
-        ]
-       }
-       
-       
-      ]
-     },
-   
-     {
-      "name": "Buidling B",
-      "bl": " ", 
-      "ID": " ",
-      "size": " ", 
-      "children": [
-
-       {
-        "name": "R10",
-        "bl": " ", 
-        "ID": " ",
-        "size": " ",
-        "children": [
-         { 
-          "name": "Tem-Sensor",
-          "bl": " ", 
-          "ID": " ",
-          "size": " ",
-          "children": [
-              {"name": "TemSensor", "size": 17.5, "bl": 3, "ID": " "},
-              {"name": "Humdity", "size": 36, "bl": 2.8, "ID": " "}
-          ]
-         },
-         {
-          "name": "Tem-Sensor",
-          "bl": " ", 
-          "ID": " ",
-          "size": " ",
-          "children": [
-              {"name": "TemSensor", "size": 21.5, "bl": 3, "ID": " "},
-              {"name": "Humdity", "size": 83, "bl": 2.7, "ID": " "}
-              
-          ]
-         },
-         {
-          "name": "CO2-Sensor",
-          "bl": " ", 
-          "ID": " ",
-          "size": " ",
-          "children": [
-              {"name": "CO2-Tem", "size": 26.8, "bl": 3, "ID": " "},
-              {"name": "CO2-Hum", "size": 66, "bl": 3, "ID": " "},
-              {"name": "CO2", "size": 386, "bl": 3, "ID": " "}
-          ]
-         },
-         {
-          "name": "TV0C-Sensor",
-          "bl": " ", 
-          "ID": " ",
-          "size": " ",
-          "children": [
-              {"name": "TV0C-Tem", "size": 21.8, "bl": 3, "ID": " "},
-              {"name": "TVOC-Hum", "size": 52, "bl": 2.7, "ID": " "},
-              {"name": "TV0C", "size": 59, "bl": 3, "ID": " "}
-          ]
-         }
-        ]
-       },
-       {
-        "name": "R11",
-        "bl": " ", 
-        "ID": " ",
-        "size": " ",
-        "children": [
-         { 
-          "name": "Tem-Sensor",
-          "bl": " ", 
-          "ID": " ",
-          "size": " ",
-          "children": [
-              {"name": "TemSensor", "size": 17.5, "bl": 3, "ID": " "},
-              {"name": "Humdity", "size": 36, "bl": 2.8, "ID": " "}
-          ]
-         },
-         {
-          "name": "Tem-Sensor",
-          "bl": " ", 
-          "ID": " ",
-          "size": " ",
-          "children": [
-              {"name": "TemSensor", "size": 21.5, "bl": 3, "ID": " "},
-              {"name": "Humdity", "size": 83, "bl": 2.7, "ID": " "}
-              
-          ]
-         },
-         {
-          "name": "CO2-Sensor",
-          "bl": " ", 
-          "ID": " ",
-          "size": " ",
-          "children": [
-              {"name": "CO2-Tem", "size": 26.8, "bl": 3, "ID": " "},
-              {"name": "CO2-Hum", "size": 66, "bl": 3, "ID": " "},
-              {"name": "CO2", "size": 386, "bl": 3, "ID": " "}
-          ]
-         },
-         {
-          "name": "TV0C-Sensor",
-          "bl": " ", 
-          "ID": " ",
-          "size": " ",
-          "children": [
-              {"name": "TV0C-Tem", "size": 21.8, "bl": 3, "ID": " "},
-              {"name": "TVOC-Hum", "size": 52, "bl": 2.7, "ID": " "},
-              {"name": "TV0C", "size": 59, "bl": 3, "ID": " "}
-          ]
-         }
-        ]
-       },
-       {
-        "name": "R12",
-        "bl": " ", 
-        "ID": " ",
-        "size": " ",
-        "children": [
-         { 
-          "name": "Tem-Sensor",
-          "bl": " ", 
-          "ID": " ",
-          "size": " ",
-          "children": [
-              {"name": "TemSensor", "size": 17.5, "bl": 3, "ID": " "},
-              {"name": "Humdity", "size": 36, "bl": 2.8, "ID": " "}
-          ]
-         },
-         {
-          "name": "Tem-Sensor",
-          "bl": " ", 
-          "ID": " ",
-          "size": " ",
-          "children": [
-              {"name": "TemSensor", "size": 21.5, "bl": 3, "ID": " "},
-              {"name": "Humdity", "size": 83, "bl": 2.7, "ID": " "}
-              
-          ]
-         },
-         {
-          "name": "CO2-Sensor",
-          "bl": " ", 
-          "ID": " ",
-          "size": " ",
-          "children": [
-              {"name": "CO2-Tem", "size": 26.8, "bl": 3, "ID": " "},
-              {"name": "CO2-Hum", "size": 66, "bl": 3, "ID": " "},
-              {"name": "CO2", "size": 386, "bl": 3, "ID": " "}
-          ]
-         },
-         {
-          "name": "TV0C-Sensor",
-          "bl": " ", 
-          "ID": " ",
-          "size": " ",
-          "children": [
-              {"name": "TV0C-Tem", "size": 21.8, "bl": 3, "ID": " "},
-              {"name": "TVOC-Hum", "size": 52, "bl": 2.7, "ID": " "},
-              {"name": "TV0C", "size": 59, "bl": 3, "ID": " "}
-          ]
-         }
-        ]
-       },
-       {
-        "name": "R13",
-        "bl": " ", 
-        "ID": " ",
-        "size": " ",
-        "children": [
-         { 
-          "name": "Tem-Sensor",
-          "bl": " ", 
-          "ID": " ",
-          "size": " ",
-          "children": [
-              {"name": "TemSensor", "size": 17.5, "bl": 3, "ID": " "},
-              {"name": "Humdity", "size": 0, "bl": 2.8, "ID": " "}
-          ]
-         },
-         {
-          "name": "Tem-Sensor",
-          "bl": " ", 
-          "ID": " ",
-          "size": " ",
-          "children": [
-              {"name": "TemSensor", "size": 21.5, "bl": 3, "ID": " "},
-              {"name": "Humdity", "size": 83, "bl": 2.7, "ID": " "}
-              
-          ]
-         },
-         {
-          "name": "CO2-Sensor",
-          "bl": " ", 
-          "ID": " ",
-          "size": " ",
-          "children": [
-              {"name": "CO2-Tem", "size": 26.8, "bl": 3, "ID": " "},
-              {"name": "CO2-Hum", "size": 66, "bl": 3, "ID": " "},
-              {"name": "CO2", "size": 386, "bl": 3, "ID": " "}
-          ]
-         },
-         {
-          "name": "TV0C-Sensor",
-          "bl": " ", 
-          "ID": " ",
-          "size": " ",
-          "children": [
-              {"name": "TV0C-Tem", "size": 21.8, "bl": 3, "ID": " "},
-              {"name": "TVOC-Hum", "size": 52, "bl": 2.7, "ID": " "},
-              {"name": "TV0C", "size": 59, "bl": 3, "ID": " "}
-          ]
-         }
-        ]
-       },
-       {
-        "name": "R14",
-        "bl": " ", 
-        "ID": " ",
-        "size": " ",
-        "children": [
-         { 
-          "name": "Tem-Sensor",
-          "bl": " ", 
-          "ID": " ",
-          "size": " ",
-          "children": [
-              {"name": "TemSensor", "size": 17.5, "bl": 3, "ID": " "},
-              {"name": "Humdity", "size": 36, "bl": 2.8, "ID": " "}
-          ]
-         },
-         {
-          "name": "Tem-Sensor",
-          "bl": " ", 
-          "ID": " ",
-          "size": " ",
-          "children": [
-              {"name": "TemSensor", "size": 21.5, "bl": 3, "ID": " "},
-              {"name": "Humdity", "size": 83, "bl": 2.7, "ID": " "}
-              
-          ]
-         },
-         {
-          "name": "CO2-Sensor",
-          "bl": " ", 
-          "ID": " ",
-          "size": " ",
-          "children": [
-              {"name": "CO2-Tem", "size": 26.8, "bl": 3, "ID": " "},
-              {"name": "CO2-Hum", "size": 66, "bl": 3, "ID": " "},
-              {"name": "CO2", "size": 386, "bl": 3, "ID": " "}
-          ]
-         },
-         {
-          "name": "TV0C-Sensor",
-          "bl": " ", 
-          "ID": " ",
-          "size": " ",
-          "children": [
-              {"name": "TV0C-Tem", "size": 21.8, "bl": 3, "ID": " "},
-              {"name": "TVOC-Hum", "size": 52, "bl": 2.7, "ID": " "},
-              {"name": "TV0C", "size": 59, "bl": 3, "ID": " "}
-          ]
-         }
-        ]
-       },
-       {
-        "name": "R15",
-        "bl": " ", 
-        "ID": " ",
-        "size": " ",
-        "children": [
-         { 
-          "name": "Tem-Sensor",
-          "bl": " ", 
-          "ID": " ",
-          "size": " ",
-          "children": [
-              {"name": "TemSensor", "size": 17.5, "bl": 3, "ID": " "},
-              {"name": "Humdity", "size": 36, "bl": 2.8, "ID": " "}
-          ]
-         },
-         {
-          "name": "Tem-Sensor",
-          "bl": " ", 
-          "ID": " ",
-          "size": " ",
-          "children": [
-              {"name": "TemSensor", "size": 21.5, "bl": 3, "ID": " "},
-              {"name": "Humdity", "size": 83, "bl": 2.7, "ID": " "}
-              
-          ]
-         },
-         {
-          "name": "CO2-Sensor",
-          "bl": " ", 
-          "ID": " ",
-          "size": " ",
-          "children": [
-              {"name": "CO2-Tem", "size": 26.8, "bl": 3, "ID": " "},
-              {"name": "CO2-Hum", "size": 66, "bl": 3, "ID": " "},
-              {"name": "CO2", "size": 386, "bl": 3, "ID": " "}
-          ]
-         },
-         {
-          "name": "TV0C-Sensor",
-          "bl": " ", 
-          "ID": " ",
-          "size": " ",
-          "children": [
-              {"name": "TV0C-Tem", "size": 21.8, "bl": 3, "ID": " "},
-              {"name": "TVOC-Hum", "size": 52, "bl": 2.7, "ID": " "},
-              {"name": "TV0C", "size": 59, "bl": 3, "ID": " "}
-          ]
-         }
-        ]
-       },
-       {
-        "name": "R16",
-        "bl": " ", 
-        "ID": " ",
-        "size": " ",
-        "children": [
-         { 
-          "name": "Tem-Sensor",
-          "bl": " ", 
-          "ID": " ",
-          "size": " ",
-          "children": [
-              {"name": "TemSensor", "size": 17.5, "bl": 3, "ID": " "},
-              {"name": "Humdity", "size": 36, "bl": 2.8, "ID": " "}
-          ]
-         },
-         {
-          "name": "Tem-Sensor",
-          "bl": " ", 
-          "ID": " ",
-          "size": " ",
-          "children": [
-              {"name": "TemSensor", "size": 21.5, "bl": 3, "ID": " "},
-              {"name": "Humdity", "size": 83, "bl": 2.7, "ID": " "}
-              
-          ]
-         },
-         {
-          "name": "CO2-Sensor",
-          "bl": " ", 
-          "ID": " ",
-          "size": " ",
-          "children": [
-              {"name": "CO2-Tem", "size": 26.8, "bl": 3, "ID": " "},
-              {"name": "CO2-Hum", "size": 66, "bl": 3, "ID": " "},
-              {"name": "CO2", "size": 386, "bl": 3, "ID": " "}
-          ]
-         },
-         {
-          "name": "TV0C-Sensor",
-          "bl": " ", 
-          "ID": " ",
-          "size": " ",
-          "children": [
-              {"name": "TV0C-Tem", "size": 21.8, "bl": 3, "ID": " "},
-              {"name": "TVOC-Hum", "size": 52, "bl": 2.7, "ID": " "},
-              {"name": "TV0C", "size": 59, "bl": 3, "ID": " "}
-          ]
-         }
-        ]
-       },
-       {
-        "name": "R17",
-        "bl": " ", 
-        "ID": " ",
-        "size": " ",
-        "children": [
-         { 
-          "name": "Tem-Sensor",
-          "bl": " ", 
-          "ID": " ",
-          "size": " ",
-          "children": [
-              {"name": "TemSensor", "size": 17.5, "bl": 3, "ID": " "},
-              {"name": "Humdity", "size": 36, "bl": 2.8, "ID": " "}
-          ]
-         },
-         {
-          "name": "Tem-Sensor",
-          "bl": " ", 
-          "ID": " ",
-          "size": " ",
-          "children": [
-              {"name": "TemSensor", "size": 21.5, "bl": 3, "ID": " "},
-              {"name": "Humdity", "size": 83, "bl": 2.7, "ID": " "}
-              
-          ]
-         },
-         {
-          "name": "CO2-Sensor",
-          "bl": " ", 
-          "ID": " ",
-          "size": " ",
-          "children": [
-              {"name": "CO2-Tem", "size": 26.8, "bl": 3, "ID": " "},
-              {"name": "CO2-Hum", "size": 66, "bl": 3, "ID": " "},
-              {"name": "CO2", "size": 386, "bl": 3, "ID": " "}
-          ]
-         },
-         {
-          "name": "TV0C-Sensor",
-          "bl": " ", 
-          "ID": " ",
-          "size": " ",
-          "children": [
-              {"name": "TV0C-Tem", "size": 21.8, "bl": 3, "ID": " "},
-              {"name": "TVOC-Hum", "size": 52, "bl": 2.7, "ID": " "},
-              {"name": "TV0C", "size": 59, "bl": 3, "ID": " "}
-          ]
-         }
-        ]
-       },
-       {
-        "name": "R18",
-        "bl": " ", 
-        "ID": " ",
-        "size": " ",
-        "children": [
-         { 
-          "name": "Tem-Sensor",
-          "bl": " ", 
-          "ID": " ",
-          "size": " ",
-          "children": [
-              {"name": "TemSensor", "size": 17.5, "bl": 3, "ID": " "},
-              {"name": "Humdity", "size": 36, "bl": 2.8, "ID": " "}
-          ]
-         },
-         {
-          "name": "Tem-Sensor",
-          "bl": " ", 
-          "ID": " ",
-          "size": " ",
-          "children": [
-              {"name": "TemSensor", "size": 21.5, "bl": 3, "ID": " "},
+              {"name": "TemSensor", "size": 21.5, "bl": 3, "ID": 31623},
               {"name": "Humdity", "size": 83, "bl": 2.7, "ID": 31323}
               
           ]
@@ -1485,9 +105,9 @@
           "ID": " ",
           "size": " ",
           "children": [
-              {"name": "CO2-Tem", "size": 26.8, "bl": 3, "ID": " "},
-              {"name": "CO2-Hum", "size": 66, "bl": 3, "ID": " "},
-              {"name": "CO2", "size": 386, "bl": 3, "ID": " "}
+              {"name": "CO2-Tem", "size": 26.8, "bl": 3, "ID": 31023},
+              {"name": "CO2-Hum", "size": 66, "bl": 3, "ID": 30023},
+              {"name": "CO2", "size": 386, "bl": 3, "ID": 31023}
           ]
          },
          {
@@ -1496,15 +116,15 @@
           "ID": " ",
           "size": " ",
           "children": [
-              {"name": "TV0C-Tem", "size": 21.8, "bl": 3, "ID": " "},
-              {"name": "TVOC-Hum", "size": 52, "bl": 2.7, "ID": " "},
-              {"name": "TV0C", "size": 59, "bl": 3, "ID": " "}
+              {"name": "TV0C-Tem", "size": 21.8, "bl": 3, "ID": 31023},
+              {"name": "TVOC-Hum", "size": 52, "bl": 2.7, "ID": 31023},
+              {"name": "TV0C", "size": 59, "bl": 3, "ID": 31023}
           ]
          }
         ]
        },
        {
-        "name": "R19",
+        "name": "Test Envirnment",
         "bl": " ", 
         "ID": " ",
         "size": " ",
@@ -1515,8 +135,8 @@
           "ID": " ",
           "size": " ",
           "children": [
-              {"name": "TemSensor", "size": 17.5, "bl": 3, "ID": " "},
-              {"name": "Humdity", "size": 36, "bl": 2.8, "ID": " "}
+              {"name": "TemSensor", "size": 17.5, "bl": 3, "ID": 31023},
+              {"name": "Humdity", "size": 36, "bl": 2.8, "ID": 31023}
           ]
          },
          {
@@ -1525,8 +145,8 @@
           "ID": " ",
           "size": " ",
           "children": [
-              {"name": "TemSensor", "size": 21.5, "bl": 3, "ID": " "},
-              {"name": "Humdity", "size": 83, "bl": 2.7, "ID": " "}
+              {"name": "TemSensor", "size": 21.5, "bl": 3, "ID": 31623},
+              {"name": "Humdity", "size": 83, "bl": 2.7, "ID": 31323}
               
           ]
          },
@@ -1536,78 +156,879 @@
           "ID": " ",
           "size": " ",
           "children": [
-              {"name": "CO2-Tem", "size": 26.8, "bl": 3, "ID": " "},
-              {"name": "CO2-Hum", "size": 66, "bl": 3, "ID": " "},
-              {"name": "CO2", "size": 386, "bl": 3, "ID": " "}
+              {"name": "CO2-Tem", "size": 26.8, "bl": 3, "ID": 31023},
+              {"name": "CO2-Hum", "size": 66, "bl": 3, "ID": 30023},
+              {"name": "CO2", "size": 386, "bl": 3, "ID": 31023}
           ]
          },
          {
           "name": "TV0C-Sensor",
           "bl": " ", 
-          "ID": "",
+          "ID": " ",
           "size": " ",
           "children": [
-              {"name": "TV0C-Tem", "size": 21.8, "bl": 3, "ID": " "},
-              {"name": "TVOC-Hum", "size": 52, "bl": 2.7, "ID": " "},
-              {"name": "TV0C", "size": 59, "bl": 3, "ID": " "}
+              {"name": "TV0C-Tem", "size": 21.8, "bl": 3, "ID": 31023},
+              {"name": "TVOC-Hum", "size": 52, "bl": 2.7, "ID": 31023},
+              {"name": "TV0C", "size": 59, "bl": 3, "ID": 31023}
+          ]
+         }
+        ]
+       },
+       {
+        "name": "Test Envirnment",
+        "bl": " ", 
+        "ID": " ",
+        "size": " ",
+        "children": [
+         { 
+          "name": "Tem-Sensor",
+          "bl": " ", 
+          "ID": " ",
+          "size": " ",
+          "children": [
+              {"name": "TemSensor", "size": 17.5, "bl": 3, "ID": 31023},
+              {"name": "Humdity", "size": 36, "bl": 2.8, "ID": 31023}
+          ]
+         },
+         {
+          "name": "Tem-Sensor",
+          "bl": " ", 
+          "ID": " ",
+          "size": " ",
+          "children": [
+              {"name": "TemSensor", "size": 21.5, "bl": 3, "ID": 31623},
+              {"name": "Humdity", "size": 83, "bl": 2.7, "ID": 31323}
+              
+          ]
+         },
+         {
+          "name": "CO2-Sensor",
+          "bl": " ", 
+          "ID": " ",
+          "size": " ",
+          "children": [
+              {"name": "CO2-Tem", "size": 26.8, "bl": 3, "ID": 31023},
+              {"name": "CO2-Hum", "size": 66, "bl": 3, "ID": 30023},
+              {"name": "CO2", "size": 386, "bl": 3, "ID": 31023}
+          ]
+         },
+         {
+          "name": "TV0C-Sensor",
+          "bl": " ", 
+          "ID": " ",
+          "size": " ",
+          "children": [
+              {"name": "TV0C-Tem", "size": 21.8, "bl": 3, "ID": 31023},
+              {"name": "TVOC-Hum", "size": 52, "bl": 2.7, "ID": 31023},
+              {"name": "TV0C", "size": 59, "bl": 3, "ID": 31023}
+          ]
+         }
+        ]
+       },
+       {
+        "name": "Test Envirnment",
+        "bl": " ", 
+        "ID": " ",
+        "size": " ",
+        "children": [
+         { 
+          "name": "Tem-Sensor",
+          "bl": " ", 
+          "ID": " ",
+          "size": " ",
+          "children": [
+              {"name": "TemSensor", "size": 17.5, "bl": 3, "ID": 31023},
+              {"name": "Humdity", "size": 36, "bl": 2.8, "ID": 31023}
+          ]
+         },
+         {
+          "name": "Tem-Sensor",
+          "bl": " ", 
+          "ID": " ",
+          "size": " ",
+          "children": [
+              {"name": "TemSensor", "size": 21.5, "bl": 3, "ID": 31623},
+              {"name": "Humdity", "size": 83, "bl": 2.7, "ID": 31323}
+              
+          ]
+         },
+         {
+          "name": "CO2-Sensor",
+          "bl": " ", 
+          "ID": " ",
+          "size": " ",
+          "children": [
+              {"name": "CO2-Tem", "size": 26.8, "bl": 3, "ID": 31023},
+              {"name": "CO2-Hum", "size": 66, "bl": 3, "ID": 30023},
+              {"name": "CO2", "size": 386, "bl": 3, "ID": 31023}
+          ]
+         },
+         {
+          "name": "TV0C-Sensor",
+          "bl": " ", 
+          "ID": " ",
+          "size": " ",
+          "children": [
+              {"name": "TV0C-Tem", "size": 21.8, "bl": 3, "ID": 31023},
+              {"name": "TVOC-Hum", "size": 52, "bl": 2.7, "ID": 31023},
+              {"name": "TV0C", "size": 59, "bl": 3, "ID": 31023}
+          ]
+         }
+        ]
+       },
+       {
+        "name": "Test Envirnment",
+        "bl": " ", 
+        "ID": " ",
+        "size": " ",
+        "children": [
+         { 
+          "name": "Tem-Sensor",
+          "bl": " ", 
+          "ID": " ",
+          "size": " ",
+          "children": [
+              {"name": "TemSensor", "size": 17.5, "bl": 3, "ID": 31023},
+              {"name": "Humdity", "size": 36, "bl": 2.8, "ID": 31023}
+          ]
+         },
+         {
+          "name": "Tem-Sensor",
+          "bl": " ", 
+          "ID": " ",
+          "size": " ",
+          "children": [
+              {"name": "TemSensor", "size": 21.5, "bl": 3, "ID": 31623},
+              {"name": "Humdity", "size": 83, "bl": 2.7, "ID": 31323}
+              
+          ]
+         },
+         {
+          "name": "CO2-Sensor",
+          "bl": " ", 
+          "ID": " ",
+          "size": " ",
+          "children": [
+              {"name": "CO2-Tem", "size": 26.8, "bl": 3, "ID": 31023},
+              {"name": "CO2-Hum", "size": 66, "bl": 3, "ID": 30023},
+              {"name": "CO2", "size": 386, "bl": 3, "ID": 31023}
+          ]
+         },
+         {
+          "name": "TV0C-Sensor",
+          "bl": " ", 
+          "ID": " ",
+          "size": " ",
+          "children": [
+              {"name": "TV0C-Tem", "size": 21.8, "bl": 3, "ID": 31023},
+              {"name": "TVOC-Hum", "size": 52, "bl": 2.7, "ID": 31023},
+              {"name": "TV0C", "size": 59, "bl": 3, "ID": 31023}
+          ]
+         }
+        ]
+       },
+       {
+        "name": "Test Envirnment",
+        "bl": " ", 
+        "ID": " ",
+        "size": " ",
+        "children": [
+         { 
+          "name": "Tem-Sensor",
+          "bl": " ", 
+          "ID": " ",
+          "size": " ",
+          "children": [
+              {"name": "TemSensor", "size": 17.5, "bl": 3, "ID": 31023},
+              {"name": "Humdity", "size": 36, "bl": 2.8, "ID": 31023}
+          ]
+         },
+         {
+          "name": "Tem-Sensor",
+          "bl": " ", 
+          "ID": " ",
+          "size": " ",
+          "children": [
+              {"name": "TemSensor", "size": 21.5, "bl": 3, "ID": 31623},
+              {"name": "Humdity", "size": 83, "bl": 2.7, "ID": 31323}
+              
+          ]
+         },
+         {
+          "name": "CO2-Sensor",
+          "bl": " ", 
+          "ID": " ",
+          "size": " ",
+          "children": [
+              {"name": "CO2-Tem", "size": 26.8, "bl": 3, "ID": 31023},
+              {"name": "CO2-Hum", "size": 66, "bl": 3, "ID": 30023},
+              {"name": "CO2", "size": 386, "bl": 3, "ID": 31023}
+          ]
+         },
+         {
+          "name": "TV0C-Sensor",
+          "bl": " ", 
+          "ID": " ",
+          "size": " ",
+          "children": [
+              {"name": "TV0C-Tem", "size": 21.8, "bl": 3, "ID": 31023},
+              {"name": "TVOC-Hum", "size": 52, "bl": 2.7, "ID": 31023},
+              {"name": "TV0C", "size": 59, "bl": 3, "ID": 31023}
+          ]
+         }
+        ]
+       },
+       {
+        "name": "Test Envirnment",
+        "bl": " ", 
+        "ID": " ",
+        "size": " ",
+        "children": [
+         { 
+          "name": "Tem-Sensor",
+          "bl": " ", 
+          "ID": " ",
+          "size": " ",
+          "children": [
+              {"name": "TemSensor", "size": 17.5, "bl": 3, "ID": 31023},
+              {"name": "Humdity", "size": 36, "bl": 2.8, "ID": 31023}
+          ]
+         },
+         {
+          "name": "Tem-Sensor",
+          "bl": " ", 
+          "ID": " ",
+          "size": " ",
+          "children": [
+              {"name": "TemSensor", "size": 21.5, "bl": 3, "ID": 31623},
+              {"name": "Humdity", "size": 83, "bl": 2.7, "ID": 31323}
+              
+          ]
+         },
+         {
+          "name": "CO2-Sensor",
+          "bl": " ", 
+          "ID": " ",
+          "size": " ",
+          "children": [
+              {"name": "CO2-Tem", "size": 26.8, "bl": 3, "ID": 31023},
+              {"name": "CO2-Hum", "size": 66, "bl": 3, "ID": 30023},
+              {"name": "CO2", "size": 386, "bl": 3, "ID": 31023}
+          ]
+         },
+         {
+          "name": "TV0C-Sensor",
+          "bl": " ", 
+          "ID": " ",
+          "size": " ",
+          "children": [
+              {"name": "TV0C-Tem", "size": 21.8, "bl": 3, "ID": 31023},
+              {"name": "TVOC-Hum", "size": 52, "bl": 2.7, "ID": 31023},
+              {"name": "TV0C", "size": 59, "bl": 3, "ID": 31023}
+          ]
+         }
+        ]
+       },
+       {
+        "name": "Test Envirnment",
+        "bl": " ", 
+        "ID": " ",
+        "size": " ",
+        "children": [
+         { 
+          "name": "Tem-Sensor",
+          "bl": " ", 
+          "ID": " ",
+          "size": " ",
+          "children": [
+              {"name": "TemSensor", "size": 17.5, "bl": 3, "ID": 31023},
+              {"name": "Humdity", "size": 36, "bl": 2.8, "ID": 31023}
+          ]
+         },
+         {
+          "name": "Tem-Sensor",
+          "bl": " ", 
+          "ID": " ",
+          "size": " ",
+          "children": [
+              {"name": "TemSensor", "size": 21.5, "bl": 3, "ID": 31623},
+              {"name": "Humdity", "size": 83, "bl": 2.7, "ID": 31323}
+              
+          ]
+         },
+         {
+          "name": "CO2-Sensor",
+          "bl": " ", 
+          "ID": " ",
+          "size": " ",
+          "children": [
+              {"name": "CO2-Tem", "size": 26.8, "bl": 3, "ID": 31023},
+              {"name": "CO2-Hum", "size": 66, "bl": 3, "ID": 30023},
+              {"name": "CO2", "size": 386, "bl": 3, "ID": 31023}
+          ]
+         },
+         {
+          "name": "TV0C-Sensor",
+          "bl": " ", 
+          "ID": " ",
+          "size": " ",
+          "children": [
+              {"name": "TV0C-Tem", "size": 21.8, "bl": 3, "ID": 31023},
+              {"name": "TVOC-Hum", "size": 52, "bl": 2.7, "ID": 31023},
+              {"name": "TV0C", "size": 59, "bl": 3, "ID": 31023}
           ]
          }
         ]
        }
+       
+       
+       
+       
+       
+       
+       
+       
+      ]
+     },
    
+     {
+        "name": "test",
+        "size": " ",
+        "children": [
+         {
+          "name": "R00",
+          "children": [
+           {"name": "TemSensor", "size": 23.5}
+           
+          ]
+         },
+          {
+              "name": "R01",
+              "size": " ",
+              "children": [
+               {"name": "TemSensor", "size": 23.5},
+               {"name": "Humdity", "size": 56},
+               {"name": "CO2-Tem", "size": 21.8},
+               {"name": "CO2-Hum", "size": 46},
+               {"name": "TV0C-Tem", "size": 26.8},
+               {"name": "TVOC-Hum", "size": 52},
+               {"name": "CO2", "size": 156},
+               {"name": "TV0C", "size": 58}
+      
+          ]
+         },
+  
+         {
+          "name": "R02",
+          "size": " ",
+          "children": [
+           {"name": "TemSensor", "size": 23.5},
+           {"name": "Humdity", "size": 56},
+           {"name": "CO2-Tem", "size": 21.8},
+           {"name": "CO2-Hum", "size": 46},
+           {"name": "TV0C-Tem", "size": 26.8},
+           {"name": "TVOC-Hum", "size": 52},
+           {"name": "CO2", "size": 116},
+           {"name": "TV0C", "size": 58}
+  
+      ]
+     },
+         {
+          "name": "R03",
+          "size": " ",
+          "children": [
+          
+           {"name": "TemSensor : ", "size": 56.5},
+              {"name": "Humdity : ", "size": 76},
+              {"name": "CO2-Tem : ", "size": 23.8},
+              {"name": "CO2-Hum : ", "size": 46},
+              {"name": "TV0C-Tem : ", "size": 26.8},
+              {"name": "TVOC-Hum : ", "size": 62},
+              {"name": "CO2 : ", "size": 186},
+              {"name": "TV0C : ", "size": 28}
+          ]
+         },
+         {
+          "name": "R17",
+          "size": " ",
+          "children": [
+              {"name": "TemSensor", "size": 16.5},
+              {"name": "Humdity", "size": 76},
+              {"name": "CO2-Tem", "size": 23.8},
+              {"name": "CO2-Hum", "size": 46},
+              {"name": "TV0C-Tem", "size": 26.8},
+              {"name": "TVOC-Hum", "size": 62},
+              {"name": "CO2", "size": 236},
+              {"name": "TV0C", "size": 28}
+          ]
+         },
+         {
+          "name": "Test Envirnment",
+          "bl": " ", 
+          "ID": " ",
+          "size": " ",
+          "children": [
+           { 
+            "name": "Tem-Sensor",
+            "bl": " ", 
+            "ID": " ",
+            "size": " ",
+            "children": [
+                {"name": "TemSensor", "size": 17.5, "bl": 3, "ID": 31023},
+                {"name": "Humdity", "size": 36, "bl": 2.8, "ID": 31023}
+            ]
+           },
+           {
+            "name": "Tem-Sensor",
+            "bl": " ", 
+            "ID": " ",
+            "size": " ",
+            "children": [
+                {"name": "TemSensor", "size": 21.5, "bl": 3, "ID": 31623},
+                {"name": "Humdity", "size": 83, "bl": 2.7, "ID": 31323}
+                
+            ]
+           },
+           {
+            "name": "CO2-Sensor",
+            "bl": " ", 
+            "ID": " ",
+            "size": " ",
+            "children": [
+                {"name": "CO2-Tem", "size": 26.8, "bl": 3, "ID": 31023},
+                {"name": "CO2-Hum", "size": 66, "bl": 3, "ID": 30023},
+                {"name": "CO2", "size": 386, "bl": 3, "ID": 31023}
+            ]
+           },
+           {
+            "name": "TV0C-Sensor",
+            "bl": " ", 
+            "ID": " ",
+            "size": " ",
+            "children": [
+                {"name": "TV0C-Tem", "size": 21.8, "bl": 3, "ID": 31023},
+                {"name": "TVOC-Hum", "size": 52, "bl": 2.7, "ID": 31023},
+                {"name": "TV0C", "size": 59, "bl": 3, "ID": 31023}
+            ]
+           }
+          ]
+         },
+         {
+          "name": "Test Envirnment",
+          "bl": " ", 
+          "ID": " ",
+          "size": " ",
+          "children": [
+           { 
+            "name": "Tem-Sensor",
+            "bl": " ", 
+            "ID": " ",
+            "size": " ",
+            "children": [
+                {"name": "TemSensor", "size": 17.5, "bl": 3, "ID": 31023},
+                {"name": "Humdity", "size": 36, "bl": 2.8, "ID": 31023}
+            ]
+           },
+           {
+            "name": "Tem-Sensor",
+            "bl": " ", 
+            "ID": " ",
+            "size": " ",
+            "children": [
+                {"name": "TemSensor", "size": 21.5, "bl": 3, "ID": 31623},
+                {"name": "Humdity", "size": 83, "bl": 2.7, "ID": 31323}
+                
+            ]
+           },
+           {
+            "name": "CO2-Sensor",
+            "bl": " ", 
+            "ID": " ",
+            "size": " ",
+            "children": [
+                {"name": "CO2-Tem", "size": 26.8, "bl": 3, "ID": 31023},
+                {"name": "CO2-Hum", "size": 66, "bl": 3, "ID": 30023},
+                {"name": "CO2", "size": 386, "bl": 3, "ID": 31023}
+            ]
+           },
+           {
+            "name": "TV0C-Sensor",
+            "bl": " ", 
+            "ID": " ",
+            "size": " ",
+            "children": [
+                {"name": "TV0C-Tem", "size": 21.8, "bl": 3, "ID": 31023},
+                {"name": "TVOC-Hum", "size": 52, "bl": 2.7, "ID": 31023},
+                {"name": "TV0C", "size": 59, "bl": 3, "ID": 31023}
+            ]
+           }
+          ]
+         },
+         {
+          "name": "Test Envirnment",
+          "bl": " ", 
+          "ID": " ",
+          "size": " ",
+          "children": [
+           { 
+            "name": "Tem-Sensor",
+            "bl": " ", 
+            "ID": " ",
+            "size": " ",
+            "children": [
+                {"name": "TemSensor", "size": 17.5, "bl": 3, "ID": 31023},
+                {"name": "Humdity", "size": 36, "bl": 2.8, "ID": 31023}
+            ]
+           },
+           {
+            "name": "Tem-Sensor",
+            "bl": " ", 
+            "ID": " ",
+            "size": " ",
+            "children": [
+                {"name": "TemSensor", "size": 21.5, "bl": 3, "ID": 31623},
+                {"name": "Humdity", "size": 83, "bl": 2.7, "ID": 31323}
+                
+            ]
+           },
+           {
+            "name": "CO2-Sensor",
+            "bl": " ", 
+            "ID": " ",
+            "size": " ",
+            "children": [
+                {"name": "CO2-Tem", "size": 26.8, "bl": 3, "ID": 31023},
+                {"name": "CO2-Hum", "size": 66, "bl": 3, "ID": 30023},
+                {"name": "CO2", "size": 386, "bl": 3, "ID": 31023}
+            ]
+           },
+           {
+            "name": "TV0C-Sensor",
+            "bl": " ", 
+            "ID": " ",
+            "size": " ",
+            "children": [
+                {"name": "TV0C-Tem", "size": 21.8, "bl": 3, "ID": 31023},
+                {"name": "TVOC-Hum", "size": 52, "bl": 2.7, "ID": 31023},
+                {"name": "TV0C", "size": 59, "bl": 3, "ID": 31023}
+            ]
+           }
+          ]
+         },
+         {
+          "name": "Test Envirnment",
+          "bl": " ", 
+          "ID": " ",
+          "size": " ",
+          "children": [
+           { 
+            "name": "Tem-Sensor",
+            "bl": " ", 
+            "ID": " ",
+            "size": " ",
+            "children": [
+                {"name": "TemSensor", "size": 17.5, "bl": 3, "ID": 31023},
+                {"name": "Humdity", "size": 36, "bl": 2.8, "ID": 31023}
+            ]
+           },
+           {
+            "name": "Tem-Sensor",
+            "bl": " ", 
+            "ID": " ",
+            "size": " ",
+            "children": [
+                {"name": "TemSensor", "size": 21.5, "bl": 3, "ID": 31623},
+                {"name": "Humdity", "size": 83, "bl": 2.7, "ID": 31323}
+                
+            ]
+           },
+           {
+            "name": "CO2-Sensor",
+            "bl": " ", 
+            "ID": " ",
+            "size": " ",
+            "children": [
+                {"name": "CO2-Tem", "size": 26.8, "bl": 3, "ID": 31023},
+                {"name": "CO2-Hum", "size": 66, "bl": 3, "ID": 30023},
+                {"name": "CO2", "size": 386, "bl": 3, "ID": 31023}
+            ]
+           },
+           {
+            "name": "TV0C-Sensor",
+            "bl": " ", 
+            "ID": " ",
+            "size": " ",
+            "children": [
+                {"name": "TV0C-Tem", "size": 21.8, "bl": 3, "ID": 31023},
+                {"name": "TVOC-Hum", "size": 52, "bl": 2.7, "ID": 31023},
+                {"name": "TV0C", "size": 59, "bl": 3, "ID": 31023}
+            ]
+           }
+          ]
+         },
+         {
+          "name": "Test Envirnment",
+          "bl": " ", 
+          "ID": " ",
+          "size": " ",
+          "children": [
+           { 
+            "name": "Tem-Sensor",
+            "bl": " ", 
+            "ID": " ",
+            "size": " ",
+            "children": [
+                {"name": "TemSensor", "size": 17.5, "bl": 3, "ID": 31023},
+                {"name": "Humdity", "size": 36, "bl": 2.8, "ID": 31023}
+            ]
+           },
+           {
+            "name": "Tem-Sensor",
+            "bl": " ", 
+            "ID": " ",
+            "size": " ",
+            "children": [
+                {"name": "TemSensor", "size": 21.5, "bl": 3, "ID": 31623},
+                {"name": "Humdity", "size": 83, "bl": 2.7, "ID": 31323}
+                
+            ]
+           },
+           {
+            "name": "CO2-Sensor",
+            "bl": " ", 
+            "ID": " ",
+            "size": " ",
+            "children": [
+                {"name": "CO2-Tem", "size": 26.8, "bl": 3, "ID": 31023},
+                {"name": "CO2-Hum", "size": 66, "bl": 3, "ID": 30023},
+                {"name": "CO2", "size": 386, "bl": 3, "ID": 31023}
+            ]
+           },
+           {
+            "name": "TV0C-Sensor",
+            "bl": " ", 
+            "ID": " ",
+            "size": " ",
+            "children": [
+                {"name": "TV0C-Tem", "size": 21.8, "bl": 3, "ID": 31023},
+                {"name": "TVOC-Hum", "size": 52, "bl": 2.7, "ID": 31023},
+                {"name": "TV0C", "size": 59, "bl": 3, "ID": 31023}
+            ]
+           }
+          ]
+         },
+         {
+          "name": "Test Envirnment",
+          "bl": " ", 
+          "ID": " ",
+          "size": " ",
+          "children": [
+           { 
+            "name": "Tem-Sensor",
+            "bl": " ", 
+            "ID": " ",
+            "size": " ",
+            "children": [
+                {"name": "TemSensor", "size": 17.5, "bl": 3, "ID": 31023},
+                {"name": "Humdity", "size": 36, "bl": 2.8, "ID": 31023}
+            ]
+           },
+           {
+            "name": "Tem-Sensor",
+            "bl": " ", 
+            "ID": " ",
+            "size": " ",
+            "children": [
+                {"name": "TemSensor", "size": 21.5, "bl": 3, "ID": 31623},
+                {"name": "Humdity", "size": 83, "bl": 2.7, "ID": 31323}
+                
+            ]
+           },
+           {
+            "name": "CO2-Sensor",
+            "bl": " ", 
+            "ID": " ",
+            "size": " ",
+            "children": [
+                {"name": "CO2-Tem", "size": 26.8, "bl": 3, "ID": 31023},
+                {"name": "CO2-Hum", "size": 66, "bl": 3, "ID": 30023},
+                {"name": "CO2", "size": 386, "bl": 3, "ID": 31023}
+            ]
+           },
+           {
+            "name": "TV0C-Sensor",
+            "bl": " ", 
+            "ID": " ",
+            "size": " ",
+            "children": [
+                {"name": "TV0C-Tem", "size": 21.8, "bl": 3, "ID": 31023},
+                {"name": "TVOC-Hum", "size": 52, "bl": 2.7, "ID": 31023},
+                {"name": "TV0C", "size": 59, "bl": 3, "ID": 31023}
+            ]
+           }
+          ]
+         },
+         {
+          "name": "Test Envirnment",
+          "bl": " ", 
+          "ID": " ",
+          "size": " ",
+          "children": [
+           { 
+            "name": "Tem-Sensor",
+            "bl": " ", 
+            "ID": " ",
+            "size": " ",
+            "children": [
+                {"name": "TemSensor", "size": 17.5, "bl": 3, "ID": 31023},
+                {"name": "Humdity", "size": 36, "bl": 2.8, "ID": 31023}
+            ]
+           },
+           {
+            "name": "Tem-Sensor",
+            "bl": " ", 
+            "ID": " ",
+            "size": " ",
+            "children": [
+                {"name": "TemSensor", "size": 21.5, "bl": 3, "ID": 31623},
+                {"name": "Humdity", "size": 83, "bl": 2.7, "ID": 31323}
+                
+            ]
+           },
+           {
+            "name": "CO2-Sensor",
+            "bl": " ", 
+            "ID": " ",
+            "size": " ",
+            "children": [
+                {"name": "CO2-Tem", "size": 26.8, "bl": 3, "ID": 31023},
+                {"name": "CO2-Hum", "size": 66, "bl": 3, "ID": 30023},
+                {"name": "CO2", "size": 386, "bl": 3, "ID": 31023}
+            ]
+           },
+           {
+            "name": "TV0C-Sensor",
+            "bl": " ", 
+            "ID": " ",
+            "size": " ",
+            "children": [
+                {"name": "TV0C-Tem", "size": 21.8, "bl": 3, "ID": 31023},
+                {"name": "TVOC-Hum", "size": 52, "bl": 2.7, "ID": 31023},
+                {"name": "TV0C", "size": 59, "bl": 3, "ID": 31023}
+            ]
+           }
+          ]
+         },
+         {
+          "name": "Test Envirnment",
+          "bl": " ", 
+          "ID": " ",
+          "size": " ",
+          "children": [
+           { 
+            "name": "Tem-Sensor",
+            "bl": " ", 
+            "ID": " ",
+            "size": " ",
+            "children": [
+                {"name": "TemSensor", "size": 17.5, "bl": 3, "ID": 31023},
+                {"name": "Humdity", "size": 36, "bl": 2.8, "ID": 31023}
+            ]
+           },
+           {
+            "name": "Tem-Sensor",
+            "bl": " ", 
+            "ID": " ",
+            "size": " ",
+            "children": [
+                {"name": "TemSensor", "size": 21.5, "bl": 3, "ID": 31623},
+                {"name": "Humdity", "size": 83, "bl": 2.7, "ID": 31323}
+                
+            ]
+           },
+           {
+            "name": "CO2-Sensor",
+            "bl": " ", 
+            "ID": " ",
+            "size": " ",
+            "children": [
+                {"name": "CO2-Tem", "size": 26.8, "bl": 3, "ID": 31023},
+                {"name": "CO2-Hum", "size": 66, "bl": 3, "ID": 30023},
+                {"name": "CO2", "size": 386, "bl": 3, "ID": 31023}
+            ]
+           },
+           {
+            "name": "TV0C-Sensor",
+            "bl": " ", 
+            "ID": " ",
+            "size": " ",
+            "children": [
+                {"name": "TV0C-Tem", "size": 21.8, "bl": 3, "ID": 31023},
+                {"name": "TVOC-Hum", "size": 52, "bl": 2.7, "ID": 31023},
+                {"name": "TV0C", "size": 59, "bl": 3, "ID": 31023}
+            ]
+           }
+          ]
+         }
+         
+         
+         
+         
+         
+         
+         
          
         ]
        },
 
 
     {
-      "name": "Test",
+      "name": "Test Envirnment",
       "bl": " ", 
-      "ID": " ",
-      "size": " ", 
+      "ID": "al",
+      "size": "",
       "children": [
        { 
         "name": "Tem-Sensor",
         "bl": " ", 
-        "ID": "32937A",
+        "ID": " ",
         "size": " ",
         "children": [
-            {"name": "TemSensor", "size": 17.5, "bl": 3, "ID": " "},
-            {"name": "Humdity", "size": 36, "bl": 2.8, "ID": " "}
+            {"name": "TemSensor", "size": 17.5, "bl": 3, "ID": 31023},
+            {"name": "Humdity", "size": 36, "bl": 2.8, "ID": 31023}
         ]
        },
        {
         "name": "Tem-Sensor",
         "bl": " ", 
-        "ID": "334Bd70",
+        "ID": " ",
         "size": " ",
         "children": [
-            {"name": "TemSensor", "size": 21.5, "bl": 3, "ID": " "},
-            {"name": "Humdity", "size": 83, "bl": 2.7, "ID": " "}
+            {"name": "TemSensor", "size": 21.5, "bl": 3, "ID": 31623},
+            {"name": "Humdity", "size": 83, "bl": 2.7, "ID": 31323}
             
         ]
        },
        {
         "name": "CO2-Sensor",
         "bl": " ", 
-        "ID": "30627C",
+        "ID": " ",
         "size": " ",
         "children": [
-            {"name": "CO2-Tem", "size": 26.8, "bl": 3, "ID": " "},
-            {"name": "CO2-Hum", "size": 66, "bl": 3, "ID": " "},
-            {"name": "CO2", "size": 386, "bl": 3, "ID": " "}
+            {"name": "CO2-Tem", "size": 26.8, "bl": 3, "ID": 31023},
+            {"name": "CO2-Hum", "size": 66, "bl": 3, "ID": 30023},
+            {"name": "CO2", "size": 386, "bl": 3, "ID": 31023}
         ]
        },
        {
         "name": "TV0C-Sensor",
         "bl": " ", 
-        "ID": "31723",
+        "ID": " ",
         "size": " ",
         "children": [
-            {"name": "TemSensor", "size": 21.5, "bl": 3, "ID": " "},
-            {"name": "Humdity", "size": 83, "bl": 2.7, "ID": " "},
-            {"name": "TVO2", "size": 66, "bl": 3, "ID": " "}
-              
+            {"name": "TV0C-Tem", "size": 21.8, "bl": 3, "ID": 31023},
+            {"name": "TVOC-Hum", "size": 52, "bl": 2.7, "ID": 31023},
+            {"name": "TV0C", "size": 59, "bl": 3, "ID": 31023}
         ]
        }
       ]
@@ -1616,3 +1037,4 @@
     ]
    }
    
+
