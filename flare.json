@@ -796,11 +796,11 @@
          {
           "name": "Tem-Sensor",
           "bl": " ", 
-          "ID": " ",
+          "ID": "31623",
           "size": " ",
           "children": [
-              {"name": "TemSensor", "size": 21.5, "bl": 3, "ID": 31623},
-              {"name": "Humdity", "size": 83, "bl": 2.7, "ID": 31323}
+              {"name": "TemSensor", "size": 21.5, "bl": 3},
+              {"name": "Humdity", "size": 83, "bl": 2.7}
               
           ]
          },
@@ -1601,12 +1601,13 @@
        {
         "name": "TV0C-Sensor",
         "bl": " ", 
-        "ID": " ",
+        "ID": "31723",
         "size": " ",
         "children": [
-            {"name": "TV0C-Tem", "size": 21.8, "bl": 3, "ID": 31023},
-            {"name": "TVOC-Hum", "size": 52, "bl": 2.7, "ID": 31023},
-            {"name": "TV0C", "size": 59, "bl": 3, "ID": 31023}
+            {"name": "TemSensor", "size": 21.5, "bl": 3},
+            {"name": "Humdity", "size": 83, "bl": 2.7},
+            {"name": "TVO2", "size": 66, "bl": 3}
+              
         ]
        }
       ]
