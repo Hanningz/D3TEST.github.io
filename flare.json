@@ -1043,25 +1043,7 @@
       "ID": " ",
       "size": " ", 
       "children": [
-        
-         {
-          "name": "R17",
-          "bl": " ", 
-            "ID": " ",
-            "size": " ", 
-          "children": [
-              {"name": "TemSensor", "size": 16.5},
-              {"name": "Humdity", "size": 76},
-              {"name": "CO2-Tem", "size": 23.8},
-              {"name": "CO2-Hum", "size": 46},
-              {"name": "TV0C-Tem", "size": 26.8},
-              {"name": "TVOC-Hum", "size": 62},
-              {"name": "CO2", "size": 236},
-              {"name": "TV0C", "size": 28}
-          ]
-         },
-         
-       
+
        {
         "name": "R10",
         "bl": " ", 
