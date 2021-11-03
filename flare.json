@@ -1572,7 +1572,7 @@
         "ID": "329347",
         "size": " ",
         "children": [
-            {"name": "TemSensor", "size": 17.5, "bl": 3, "ID": " "},
+            {"name": "TemSensor", "size": 6, "bl": 3, "ID": " "},
             {"name": "Humdity", "size": 36, "bl": 2.8, "ID": " "}
         ]
        },
