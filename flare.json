@@ -1564,7 +1564,7 @@
       "name": "Test",
       "bl": " ", 
       "ID": " ",
-      "size": " ", 
+      "size": "3", 
       "children": [
        { 
         "name": "Tem-Sensor",
