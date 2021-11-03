@@ -2,62 +2,11 @@
     "name": "Buidls",
     "children": [
      {
-      "name": "test",
+      "name": "Building A",
       "size": " ",
       "children": [
-       {
-        "name": "R00",
-        "children": [
-         {"name": "TemSensor", "size": 23.5}
-         
-        ]
-       },
-        {
-            "name": "R01",
-            "size": " ",
-            "children": [
-             {"name": "TemSensor", "size": 23.5},
-             {"name": "Humdity", "size": 56},
-             {"name": "CO2-Tem", "size": 21.8},
-             {"name": "CO2-Hum", "size": 46},
-             {"name": "TV0C-Tem", "size": 26.8},
-             {"name": "TVOC-Hum", "size": 52},
-             {"name": "CO2", "size": 156},
-             {"name": "TV0C", "size": 58}
-    
-        ]
-       },
-
-       {
-        "name": "R02",
-        "size": " ",
-        "children": [
-         {"name": "TemSensor", "size": 23.5},
-         {"name": "Humdity", "size": 56},
-         {"name": "CO2-Tem", "size": 21.8},
-         {"name": "CO2-Hum", "size": 46},
-         {"name": "TV0C-Tem", "size": 26.8},
-         {"name": "TVOC-Hum", "size": 52},
-         {"name": "CO2", "size": 116},
-         {"name": "TV0C", "size": 58}
-
-    ]
-   },
-       {
-        "name": "R03",
-        "size": " ",
-        "children": [
-        
-         {"name": "TemSensor : ", "size": 56.5},
-            {"name": "Humdity : ", "size": 76},
-            {"name": "CO2-Tem : ", "size": 23.8},
-            {"name": "CO2-Hum : ", "size": 46},
-            {"name": "TV0C-Tem : ", "size": 26.8},
-            {"name": "TVOC-Hum : ", "size": 62},
-            {"name": "CO2 : ", "size": 186},
-            {"name": "TV0C : ", "size": 28}
-        ]
-       },
+     
+   
        {
         "name": "R17",
         "size": " ",
@@ -492,7 +441,9 @@
      },
    
      {
-        "name": "test",
+        "name": "Building B",
+        "bl": " ", 
+        "ID": " ",
         "size": " ",
         "children": [
          {
@@ -983,9 +934,9 @@
 
 
     {
-      "name": "Test Envirnment",
+      "name": "Test",
       "bl": " ", 
-      "ID": "al",
+      "ID": "",
       "size": "",
       "children": [
        { 
