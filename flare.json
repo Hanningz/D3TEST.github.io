@@ -1544,7 +1544,7 @@
          {
           "name": "TV0C-Sensor",
           "bl": " ", 
-          "ID": " ",
+          "ID": "",
           "size": " ",
           "children": [
               {"name": "TV0C-Tem", "size": 21.8, "bl": 3, "ID": " "},
@@ -1569,7 +1569,7 @@
        { 
         "name": "Tem-Sensor",
         "bl": " ", 
-        "ID": "329347",
+        "ID": "32937A",
         "size": " ",
         "children": [
             {"name": "TemSensor", "size": 17.5, "bl": 3, "ID": " "},
