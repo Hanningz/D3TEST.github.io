@@ -66,13 +66,13 @@ d3.json("flare.json", function(error, root) {
 	 if(d.data.size == 0){
          return d.children ? color(d.depth) : "#EE6D66"; }
          else if(d.data.size < 18){
-          return d.children ? color(d.depth) : "#EE6D66"; }
+          return d.children ? color(d.depth) : "#b3f6f2"; }
             else if (d.data.size > 18 && d.data.size < 23){
               return d.children ? color(d.depth) : "#8ae3dd"; }
 	      	else if (d.data.size > 23 && d.data.size < 27){
               	 return d.children ? color(d.depth) : "#5bd7bb"; }
                     else if (d.data.size > 30 && d.data.size < 55){
-                      return d.children ? color(d.depth) : "#EE6D66"; }
+                      return d.children ? color(d.depth) : "#E5D1FA"; }
                         else if (d.data.size > 55 && d.data.size < 79){
                         return d.children ? color(d.depth) : "#66D7EE"; }
                           else if (d.data.size > 60 && d.data.size < 400){
