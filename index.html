@@ -66,7 +66,7 @@ d3.json("flare.json", function(error, root) {
 	 if(d.data.size == 0){
          return d.children ? color(d.depth) : "#EE6D66"; }
          else if(d.data.size < 18){
-          return d.parent ? color(d.depth) : "#EE6D66"; }
+          return d.children ? color(d.depth) : "#EE6D66"; }
             else if (d.data.size > 18 && d.data.size < 23){
               return d.children ? color(d.depth) : "#8ae3dd"; }
 	      	else if (d.data.size > 23 && d.data.size < 27){
