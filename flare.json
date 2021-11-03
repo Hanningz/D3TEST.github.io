@@ -14,7 +14,7 @@
         "name": "R10",
         "bl": " ", 
         "ID": " ",
-        "size": " ",
+        "size": "3",
         "children": [
          { 
           "name": "Tem-Sensor",
