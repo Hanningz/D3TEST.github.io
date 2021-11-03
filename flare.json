@@ -1288,7 +1288,7 @@
           "size": " ",
           "children": [
               {"name": "TemSensor", "size": 17.5, "bl": 3, "ID": 31023},
-              {"name": "Humdity", "size": 36, "bl": 2.8, "ID": 31023}
+              {"name": "Humdity", "size": 0, "bl": 2.8, "ID": 31023}
           ]
          },
          {
