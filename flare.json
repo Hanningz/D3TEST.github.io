@@ -3619,10 +3619,10 @@
         "name": "Tem-Sensor",
         "bl": " ", 
         "ID": "329347",
-        "size": " ",
+        "size": "6",
         "children": [
-            {"name": "TemSensor", "size": 6, "bl": 3, "ID": " "},
-            {"name": "Humdity", "size": 36, "bl": 2.8, "ID": " "}
+            {"name": "Temperature: ", "size": 16, "bl": 3, "ID": " "},
+            {"name": "Humdity: ", "size": 36, "bl": 2.8, "ID": " "}
         ]
        },
        {
@@ -3631,8 +3631,8 @@
         "ID": "334Bd70",
         "size": " ",
         "children": [
-            {"name": "TemSensor", "size": 21.5, "bl": 3, "ID": " "},
-            {"name": "Humdity", "size": 83, "bl": 2.7, "ID": " "}
+            {"name": "Temperature: ", "size": 21.5, "bl": 3, "ID": " "},
+            {"name": "Humdity: ", "size": 83, "bl": 2.7, "ID": " "}
             
         ]
        },
@@ -3642,9 +3642,9 @@
         "ID": "30627C",
         "size": " ",
         "children": [
-            {"name": "CO2-Tem", "size": 26.8, "bl": 3, "ID": " "},
-            {"name": "CO2-Hum", "size": 66, "bl": 3, "ID": " "},
-            {"name": "CO2", "size": 386, "bl": 3, "ID": " "}
+            {"name": "Temperature: ", "size": 26.8, "bl": 3, "ID": " "},
+            {"name": "Humdity: ", "size": 66, "bl": 3, "ID": " "},
+            {"name": "CO2: ", "size": 386, "bl": 3, "ID": " "}
         ]
        },
        {
@@ -3653,9 +3653,9 @@
         "ID": "31723",
         "size": " ",
         "children": [
-            {"name": "TemSensor", "size": 21.5, "bl": 3, "ID": " "},
-            {"name": "Humdity", "size": 83, "bl": 2.7, "ID": " "},
-            {"name": "TVO2", "size": 66, "bl": 3, "ID": " "}
+            {"name": "Temperature: ", "size": 21.5, "bl": 3, "ID": " "},
+            {"name": "Humdity: ", "size": 83, "bl": 2.7, "ID": " "},
+            {"name": "TVOC: ", "size": 66, "bl": 3, "ID": " "}
               
         ]
        }
