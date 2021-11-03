@@ -14,13 +14,13 @@
         "name": "R10",
         "bl": " ", 
         "ID": " ",
-        "size": "3",
+        "size": "",
         "children": [
          { 
           "name": "Tem-Sensor",
           "bl": " ", 
           "ID": " ",
-          "size": " ",
+          "size": "",
           "children": [
               {"name": "TemSensor", "size": 17.5, "bl": 3, "ID": " "},
               {"name": "Humdity", "size": 36, "bl": 2.8, "ID": " "}
@@ -1564,13 +1564,13 @@
       "name": "Test",
       "bl": " ", 
       "ID": " ",
-      "size": "3", 
+      "size": "", 
       "children": [
        { 
         "name": "Tem-Sensor",
         "bl": " ", 
         "ID": "329347",
-        "size": " ",
+        "size": "3",
         "children": [
             {"name": "TemSensor", "size": 6, "bl": 3, "ID": " "},
             {"name": "Humdity", "size": 36, "bl": 2.8, "ID": " "}
