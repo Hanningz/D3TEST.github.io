@@ -90,7 +90,7 @@ d3.json("flare.json", function(error, root) {
       .attr("class", "label")
       .style("fill-opacity", function(d) { return d.parent === root ? 1 : 0; })
       .style("display", function(d) { return d.parent === root ? "inline" : "none"; })
-      .text(function(d) { return d.data.name +"<br />" + d.data.size + "<br />" + d.data.bl +"\n" + d.data.ID; });
+      .text(function(d) { return d.data.name + " \n " + d.data.size + " \n " + "bl:" + d.data.bl + " \n " + d.data.ID; });
 
   var node = g.selectAll("circle,text");
 
