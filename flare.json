@@ -6684,15 +6684,15 @@
       "name": "Test",
       "bl": " ", 
       "ID": " ",
-      "size": "", 
+      "size": 6, 
       "children": [
        { 
         "name": "Tem-Sensor",
         "bl": " ", 
         "ID": "329347",
-        "size": "6",
+        "size": "",
         "children": [
-            {"name": "Temperature: ", "size": 16, "bl": 3, "ID": " "},
+            {"name": "Temperature: ", "size": 6, "bl": 3, "ID": " "},
             {"name": "Humdity: ", "size": 36, "bl": 2.8, "ID": " "}
         ]
        },
