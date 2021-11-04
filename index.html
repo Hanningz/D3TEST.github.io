@@ -64,7 +64,7 @@ d3.json("flare.json", function(error, root) {
       .attr("class", function(d) { return d.parent ? d.children ? "node" : "node node--leaf" : "node node--root"; })
       .style("fill", function(d) { 
 	if(d.data.size < 10){
-          return d.children ? color(d.parent) :"#dd3646"; }
+          return color(d.children) :"#dd3646"; }
          else if(d.data.size > 10 && d.data.size < 18){
           return d.children ? color(d.depth) : "#f5eba4"; }
             else if (d.data.size > 18 && d.data.size < 23){
